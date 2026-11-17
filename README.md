@@ -137,3 +137,9 @@ CAP04_R03.png
 ## Propósito del proyecto
 
 Andina Market 360 permite analizar las ventas ficticias de las sedes de Lima, Ica y Arequipa.
+
+## Ejecución con Python
+
+Para generar el resumen de ventas, utilizar el comando:
+
+python src/resumen.py --json docs/data/resumen.json
