@@ -1,0 +1,58 @@
+================================================================================
+FICHA DE DIAGNÓSTICO — RETO 21.3
+Caso: Andina Market 360 | Capítulo 21: Introducción a GitHub Actions
+================================================================================
+
+1. SÍNTOMA OBSERVADO
+   Tras confirmar cambios (git commit) y subirlos al repositorio remoto (git push)
+   o abrir un Pull Request, no aparece ninguna ejecución nueva ni historial de
+   jobs en la pestaña "Actions" de GitHub.
+
+2. POSIBLES CAUSAS RAÍZ Y VERIFICACIÓN
+
+   [Causa 1] Ubicación o extensión incorrecta del archivo workflow
+   - Detalle: GitHub Actions solo detecta archivos alojados exactamente en la
+     ruta ".github/workflows/" desde la raíz del repositorio y con extensión
+     ".yml" o ".yaml". Si quedó dentro de otra subcarpeta o como ".txt", se
+     ignora por completo.
+   - Verificación: Ejecutar "ls -la .github/workflows/" en la raíz del proyecto.
+
+   [Causa 2] Filtro de evento o rama (bloque "on:") no coincide
+   - Detalle: El workflow puede estar configurado únicamente para "pull_request"
+     mientras el usuario solo hizo "push", o tener un filtro "branches: [main]"
+     mientras el push se envió a otra rama (ej. "practica/cap21-actions").
+   - Verificación: Revisar la clave "on:" en el archivo .yml y confirmar la rama
+     activa con "git branch".
+
+   [Causa 3] Error de sintaxis YAML o GitHub Actions deshabilitado
+   - Detalle: El uso de tabulaciones en lugar de espacios o una mala indentación
+     impide que GitHub registre el flujo. También ocurre si Actions está
+     desactivado en la configuración del repositorio.
+   - Verificación: Validar indentación a 2 espacios sin tabs y revisar en GitHub
+     la ruta: Settings > Actions > General > Actions permissions.
+
+3. ACCIÓN CORRECTIVA APLICADA
+   - Mover el archivo de configuración a la ruta raíz ".github/workflows/ci.yml".
+   - Verificar que la rama donde se realiza el push coincida con los disparadores
+     definidos en "on:".
+   - Validar el formato YAML antes de ejecutar "git push".
+
+4. RESULTADO ESPERADO TRAS LA CORRECCIÓN
+   Al subir el commit corregido, el workflow aparece registrado en la pestaña
+   "Actions" y comienza la ejecución automática del job en el runner.
+================================================================================
+
+Evidencia a entregar: Ficha de diagnóstico documentada en docs/reto_21_3.txt
+ (y captura CAP21_R03.png).
+
+Resultado obtenido: Se elaboró la ficha técnica de diagnóstico identificando
+ las tres causas principales por las que un job no aparece en Actions:
+  ruta o extensión inválida fuera de .github/workflows/*.yml,
+   discordancia entre el evento/rama subida y el bloque on:,
+    y errores de sintaxis YAML o permisos deshabilitados en el repositorio.
+
+Cómo lo comprobé / corrección realizada: Comprobé este comportamiento durante
+ la práctica cuando la carpeta .github/workflows/ quedó inicialmente
+  anidada dentro de otra subcarpeta (.kilo/) y GitHub ignoró el workflow;
+   tras moverlo a la raíz del proyecto con ls -la .github/workflows/,
+    la ejecución apareció inmediatamente.
