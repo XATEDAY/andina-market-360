@@ -1,0 +1,8 @@
+Resultado obtenido: Se diseñó un workflow mínimo con disparador exclusivo 
+on: pull_request hacia main y permisos de solo lectura (contents: read),
+ encargado de clonar el código y ejecutar la suite unittest antes de integrar cambios.
+
+Cómo lo comprobé / corrección realizada: Verifiqué que la estructura YAML utilice indentación estricta
+ de 2 espacios sin tabulaciones, que el evento esté limitado únicamente 
+ a pull_request (evitando ejecuciones redundantes en otros eventos) y que la ruta de destino corresponda
+  a .github/workflows/.
