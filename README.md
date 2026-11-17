@@ -22,7 +22,7 @@ los resultados por sede sin elaborar informes manualmente.
 - docs/: página web y resultados.
 - .github/: automatizaciones de GitHub.
 
-## Ejecución prevista
+## Ejecución del análisis
 
 Para ejecutar el análisis desde la terminal:
 
