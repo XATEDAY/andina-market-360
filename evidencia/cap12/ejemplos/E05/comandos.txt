@@ -1,0 +1,6 @@
+Validación de destinos relativos en README.md
+OK data/ventas.csv
+OK docs/manual.md
+OK CONTRIBUTING.md
+OK docs/RELEVO_COMPANERO.md
+OK evidencia/INDICE_GENERAL.md

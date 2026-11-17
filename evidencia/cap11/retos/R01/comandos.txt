@@ -1,0 +1,33 @@
+$ git add -- README.md
+$ git diff --cached --stat
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git diff --cached --check
+$ git commit -m docs: aclarar alcance de la comparación
+[laboratorio/cap11-comparacion 7e603ef] docs: aclarar alcance de la comparación
+ 1 file changed, 2 insertions(+)
+$ git log -1 --format=Author: %an%nCommitter: %cn%nHash: %H
+Author: Ulises122006
+Committer: Ulises122006
+Hash: 7e603ef6739b4923c16db7825acdab617947aaa4
+$ git add -- proyecto.md
+$ git diff --cached --stat
+ proyecto.md | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git diff --cached --check
+$ git commit -m docs: comprobar el total antes de informar
+[laboratorio/cap11-comparacion 102a09b] docs: comprobar el total antes de informar
+ 1 file changed, 2 insertions(+)
+$ git log -1 --format=Author: %an%nCommitter: %cn%nHash: %H
+Author: Ulises122006
+Committer: Ulises122006
+Hash: 102a09b8236e19b85e9befe2566efe2f056b22c0
+$ git log -2 --format=%h %an %s --stat
+102a09b Ulises122006 docs: comprobar el total antes de informar
+
+ proyecto.md | 2 ++
+ 1 file changed, 2 insertions(+)
+7e603ef Ulises122006 docs: aclarar alcance de la comparación
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)

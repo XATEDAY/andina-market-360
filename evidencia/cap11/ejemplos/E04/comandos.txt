@@ -1,0 +1,31 @@
+$ git diff -- docs/index.html
+diff --git a/docs/index.html b/docs/index.html
+index 467c521..2e6e764 100644
+--- a/docs/index.html
++++ b/docs/index.html
+@@ -4,10 +4,22 @@
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Andina Market 360</title>
++  <link rel="stylesheet" href="style.css">
++  <script src="tablero.js" defer></script>
+ </head>
+ <body>
+   <main>
++    <nav aria-label="Páginas del tablero"><a href="productos.html">Ventas por producto</a></nav>
+     <h1>Tablero de ventas por sede de Andina Market 360</h1>
++    <p>Fuente de datos ficticios <a href="data/resumen.json">resumen generado a partir de ventas.csv</a>.</p>
++    <p id="estado" role="status">Cargando resumen…</p>
++    <label for="producto">Producto</label>
++    <select id="producto" disabled><option value="">Todos</option></select>
++    <table>
++      <caption>Importes por sede en soles</caption>
++      <thead><tr><th scope="col">Sede</th><th scope="col">Importe</th></tr></thead>
++      <tbody id="filas"></tbody>
++    </table>
+   </main>
+ </body>
+ </html>
+
+Vista de comparación abierta en VS Code; captura inspeccionada.
+Fuente y recursos comprobados con GET local según CAP36_E03.

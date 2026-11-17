@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background: #f4f7f5;
+  color: #172b24;
+  font: 1rem/1.55 system-ui, sans-serif;
+}
+
+main {
+  max-width: 62rem;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+a { color: #175642; }
+:focus-visible { outline: 3px solid #175642; outline-offset: 3px; }
+select { padding: .45rem; }
+table { margin-top: 1.5rem; width: 100%; border-collapse: collapse; }
+caption { text-align: left; font-weight: 700; }
+th, td { padding: .6rem; border-bottom: 1px solid #81948c; text-align: left; }
+th { background: #dceae2; }

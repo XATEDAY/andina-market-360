@@ -1,0 +1,5 @@
+$ git branch feature/ficha-sedes
+$ git switch feature/ficha-sedes
+Switched to branch 'feature/ficha-sedes'
+$ git branch --show-current
+feature/ficha-sedes

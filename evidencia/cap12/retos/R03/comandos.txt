@@ -1,0 +1,12 @@
+ANTES
+ROTO ../../../../README.mdd
+ROTO ../../../../docs/manual.mdd
+ROTO ../../../../data/ventas.css
+ROTO ../../../../CONTRIBUTING.mdd
+ROTO ../../../../docs/index.htm
+DESPUÉS
+OK ../../../../README.md
+OK ../../../../docs/manual.md
+OK ../../../../data/ventas.csv
+OK ../../../../CONTRIBUTING.md
+OK ../../../../docs/index.html

@@ -1,0 +1,19 @@
+$ git switch -c feature/ficha-gerencia
+Switched to a new branch 'feature/ficha-gerencia'
+$ git add -- proyecto.md
+$ git diff --cached --stat
+ proyecto.md | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git diff --cached --check
+$ git commit -m docs: añadir pregunta para gerencia
+[feature/ficha-gerencia ee75e2a] docs: añadir pregunta para gerencia
+ 1 file changed, 2 insertions(+)
+$ git log -1 --format=Author: %an%nCommitter: %cn%nHash: %H
+Author: Ulises122006
+Committer: Ulises122006
+Hash: ee75e2aedcd607ac524281a178fa41e898914552
+$ git branch --show-current
+feature/ficha-gerencia
+$ git log -2 --oneline
+ee75e2a docs: añadir pregunta para gerencia
+880930d docs: explicar procedencia ficticia

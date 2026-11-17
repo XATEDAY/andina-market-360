@@ -1,0 +1,3 @@
+$ git status --porcelain -- proyecto.md
+$ git hash-object proyecto.md
+8e89452140373acbd51ce164c9d11b40f4664962

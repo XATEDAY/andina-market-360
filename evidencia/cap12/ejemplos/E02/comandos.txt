@@ -1,0 +1,11 @@
+Validación de destinos relativos en docs/manual.md
+OK index.html
+OK ../README.md
+OK ../data/ventas.csv
+OK ../data/ventas.csv
+OK ../data/ventas.csv
+OK ../data/ventas.csv
+OK ../data/ventas.csv
+OK ../data/ventas.csv
+OK ../data/ventas.csv
+3 sedes y cuatro columnas por fila.

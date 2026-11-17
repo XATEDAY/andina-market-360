@@ -1,0 +1,6 @@
+$ git log -3 --oneline --decorate
+ee75e2a (HEAD -> feature/ficha-gerencia) docs: añadir pregunta para gerencia
+880930d (main) docs: explicar procedencia ficticia
+cb1a4ba (origin/main, origin/HEAD) docs: publicar evidencias de los capítulos 8 a 10 y preparar el relevo
+$ git status --short --branch
+## feature/ficha-gerencia

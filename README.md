@@ -1,39 +1,43 @@
 # Andina Market 360
 
-## Descripción
+## Objetivo
 Proyecto académico que consolida y analiza las ventas ficticias de Lima, Ica y Arequipa para facilitar la toma de decisiones comerciales. Los resultados servirán como referencia para comparar el desempeño entre sedes.
 
 ## Problema empresarial
 La empresa necesita consolidar sus ventas y consultar
 los resultados por sede sin elaborar informes manualmente.
 
-## Funcionalidades previstas
-- Registrar 12 ventas ficticias.
-- Calcular los totales de ventas por sede.
-- Generar un resumen mediante Python.
-- Ejecutar pruebas automáticas.
-- Mostrar los resultados en una página web.
+## Requisitos
 
-## Estructura del proyecto
+Python 3 y acceso a una copia del repositorio. El proyecto utiliza biblioteca estándar.
 
-- data/: archivos de ventas.
-- src/: código fuente Python.
-- tests/: pruebas automáticas.
-- docs/: página web y resultados.
-- .github/: automatizaciones de GitHub.
+## Datos
 
-## Ejecución del análisis
+La fuente es el [CSV de ventas ficticias](data/ventas.csv).
 
-Para ejecutar el análisis desde la terminal:
+## Ejecución
+
+### Inicio rápido
 
 ```bash
+python -m unittest discover -s tests
 python src/resumen.py
 ```
 
-## Estado del proyecto
-Repositorio creado en GitHub.
-La implementación del programa Python
-y las pruebas están pendientes.
+### Instalación y uso
+
+Desde una copia autorizada del repositorio, abre la raíz en una terminal. Se necesita Python 3 y se usa únicamente su biblioteca estándar.
+
+```bash
+python --version
+python -m unittest discover -s tests -v
+python src/resumen.py --json docs/data/resumen.json
+python -m http.server 8000 --directory docs
+```
+
+Abre el tablero en `http://localhost:8000`. Detén el servidor con Ctrl+C.
+
+La guía de operación está en el [Manual](docs/manual.md) y el flujo del equipo en la [guía de contribución](CONTRIBUTING.md).
 
 ## Uso responsable
 Se utilizarán datos ficticios.
@@ -154,4 +158,4 @@ Al elegir un producto, el tablero deberá recalcular los totales por sede con la
 
 ## Prácticas y relevo
 
-Consulta el [relevo para el compañero](docs/RELEVO_COMPANERO.md) para continuar el proyecto y encontrar las evidencias de los capítulos 8, 9 y 10. El cálculo en Python, las pruebas y el filtro de productos están pendientes de implementación.
+Consulta el [relevo histórico del equipo](docs/RELEVO_COMPANERO.md) y el [índice de prácticas 11 a 36](evidencia/INDICE_GENERAL.md).

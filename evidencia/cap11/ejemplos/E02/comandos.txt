@@ -1,0 +1,23 @@
+$ git diff -- README.md
+diff --git a/README.md b/README.md
+index 0e0b930..64dab55 100644
+--- a/README.md
++++ b/README.md
+@@ -155,3 +155,5 @@ Al elegir un producto, el tablero deberá recalcular los totales por sede con la
+ ## Prácticas y relevo
+
+ Consulta el [relevo para el compañero](docs/RELEVO_COMPANERO.md) para continuar el proyecto y encontrar las evidencias de los capítulos 8, 9 y 10. El cálculo en Python, las pruebas y el filtro de productos están pendientes de implementación.
++
++Fuente del CSV: transacciones ficticias del caso Andina Market 360.
+$ git add -- README.md
+$ git diff --cached --stat
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git diff --cached --check
+$ git commit -m docs: explicar procedencia ficticia
+[main 880930d] docs: explicar procedencia ficticia
+ 1 file changed, 2 insertions(+)
+$ git log -1 --format=Author: %an%nCommitter: %cn%nHash: %H
+Author: Ulises122006
+Committer: Ulises122006
+Hash: 880930dab8becbc9122f2dcb1c3c95004c1db0ca
