@@ -1,0 +1,34 @@
+$ python src/resumen.py --csv evidencia/cap13/ejemplos/E02/ventas_laboratorio.csv
+{
+  "operaciones": 12,
+  "total": "2095.00",
+  "sedes": {
+    "Lima": "1064.00",
+    "Ica": "555.00",
+    "Arequipa": "476.00"
+  },
+  "productos": {
+    "Audifonos": {
+      "Lima": "160.00",
+      "Ica": "80.00",
+      "Arequipa": "80.00"
+    },
+    "Monitor": {
+      "Lima": "500.00",
+      "Ica": "200.00",
+      "Arequipa": "176.00"
+    },
+    "Mouse": {
+      "Lima": "180.00",
+      "Ica": "150.00",
+      "Arequipa": "120.00"
+    },
+    "Teclado": {
+      "Lima": "224.00",
+      "Ica": "125.00",
+      "Arequipa": "100.00"
+    }
+  }
+}
+
+JSON anterior: Lima 814.00; total 1845.00.

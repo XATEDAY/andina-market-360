@@ -2,4 +2,4 @@
 
 2026-11-17
 
-Tres fichas con criterios medibles.
+Tres criterios medibles.

@@ -10,7 +10,7 @@ Evidencia a entregar: archivo, comando/salida o captura que demuestre el resulta
 
 2026-11-17 · **COMPLETADO Y VERIFICADO**
 
-Verifiqué que la plantilla incluye caso ficticio, pasos, resultados y comprobación.
+Validé pasos, resultados y comprobación con datos ficticios.
 
 Artefactos: .github/ISSUE_TEMPLATE/bug_report.md.
 

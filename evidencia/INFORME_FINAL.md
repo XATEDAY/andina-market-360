@@ -6,8 +6,8 @@ Corte del 17 de noviembre de 2026. Alcance del cuaderno: capítulos 11 a 36.
 
 - BLOQUEADO: 7.
 - COMPLETADO Y VERIFICADO: 12.
-- EN PROCESO: 4.
-- SIMULACIÓN DOCUMENTADA: 2.
+- EN PROCESO: 2.
+- SIMULACIÓN DOCUMENTADA: 4.
 - PENDIENTE: 183.
 - Capturas auténticas verificadas: 4 PNG en tres actividades.
 
@@ -17,7 +17,7 @@ Se ejecutaron cinco pruebas Python, la generación del resumen, las consultas HT
 
 ## GitHub
 
-Git local y la API autenticada identificaron a Ulises122006. El repositorio XATEDAY/andina-market-360 devuelve permiso de lectura y push deshabilitado. La rama principal coincidía con origin/main al actualizarla antes de los commits locales de esta fase. No hubo publicaciones en esta sesión.
+Git local y la API autenticada identificaron a Ulises122006. El repositorio XATEDAY/andina-market-360 devuelve permiso de lectura y push deshabilitado. La rama principal coincidía con origin/main al actualizarla antes de los commits locales de esta fase. El commit local `a55436c` quedó en main con autor y committer verificados. No hubo publicaciones en esta sesión.
 
 ## Pendientes y autoevaluación
 

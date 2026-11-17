@@ -16,7 +16,7 @@ Resultado a mostrar: Revise que los estados no se asignan basándose solo en opi
 
 2026-11-17 · **COMPLETADO Y VERIFICADO**
 
-Reproduje el tablero en formato local, alternativa explícita del cuaderno.
+Reproduje el tablero local que permite la consigna.
 
 Artefactos: tablero.md.
 

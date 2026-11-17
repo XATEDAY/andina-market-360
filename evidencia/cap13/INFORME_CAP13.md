@@ -26,10 +26,10 @@ Criterios de aceptación: entrada → cambio → prueba → resultado
 ## Ejecución registrada
 
 - [CAP13_E01](ejemplos/E01/resultado.md) · SIMULACIÓN DOCUMENTADA. Tres criterios comprobables y etiqueta propuesta.
-- [CAP13_E02](ejemplos/E02/resultado.md) · EN PROCESO. Consigna y valores esperados documentados.
-- [CAP13_E03](ejemplos/E03/resultado.md) · SIMULACIÓN DOCUMENTADA. Cuatro etiquetas y justificaciones.
+- [CAP13_E02](ejemplos/E02/resultado.md) · SIMULACIÓN DOCUMENTADA. Lima pasó de 814.00 a 1064.00 y el total de 1845.00 a 2095.00.
+- [CAP13_E03](ejemplos/E03/resultado.md) · SIMULACIÓN DOCUMENTADA. Cuatro etiquetas propuestas y justificadas.
 - [CAP13_E04](ejemplos/E04/resultado.md) · COMPLETADO Y VERIFICADO. Tres estados, roles y criterios de cierre.
-- [CAP13_E05](ejemplos/E05/resultado.md) · EN PROCESO. Salida real enlazada; cierre pendiente.
-- [CAP13_R01](retos/R01/resultado.md) · COMPLETADO Y VERIFICADO. Tres fichas con criterios medibles.
-- [CAP13_R02](retos/R02/resultado.md) · COMPLETADO Y VERIFICADO. Ocho tarjetas con estados y responsables propuestos.
-- [CAP13_R03](retos/R03/resultado.md) · COMPLETADO Y VERIFICADO. Plantilla local presente con secciones verificadas.
+- [CAP13_E05](ejemplos/E05/resultado.md) · SIMULACIÓN DOCUMENTADA. Commit y salida de cinco pruebas enlazados.
+- [CAP13_R01](retos/R01/resultado.md) · COMPLETADO Y VERIFICADO. Tres criterios medibles.
+- [CAP13_R02](retos/R02/resultado.md) · COMPLETADO Y VERIFICADO. Ocho tarjetas con estado y rol.
+- [CAP13_R03](retos/R03/resultado.md) · COMPLETADO Y VERIFICADO. Plantilla local comprobada.

@@ -16,7 +16,7 @@ Resultado a mostrar: Compruebe que la etiqueta no reemplaza una descripción té
 
 2026-11-17 · **SIMULACIÓN DOCUMENTADA**
 
-Clasifiqué las fichas locales según impacto y urgencia.
+Clasifiqué las fichas según impacto y urgencia.
 
 Artefactos: etiquetas.md.
 

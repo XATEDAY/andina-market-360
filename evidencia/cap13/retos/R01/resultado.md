@@ -10,7 +10,7 @@ Evidencia a entregar: archivo, comando/salida o captura que demuestre el resulta
 
 2026-11-17 · **COMPLETADO Y VERIFICADO**
 
-Redacté tres fichas con criterios de aceptación numéricos.
+Redacté tres fichas con criterios cuantificables.
 
 Artefactos: issues.md.
 

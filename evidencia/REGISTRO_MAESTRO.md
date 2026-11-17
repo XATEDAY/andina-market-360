@@ -4,7 +4,7 @@
 |---|---|---|---|---|---|---|---|---|---|---|
 | 11 | GitHub Desktop y Visual Studio Code | 1/5 | 0/3 | 1 | 7 | 0 | 2026-11-17 | [Informe](cap11/INFORME_CAP11.md) | Parcial | — |
 | 12 | Documentación con Markdown | 3/5 | 3/3 | 6 | 2 | 0 | 2026-11-17 | [Informe](cap12/INFORME_CAP12.md) | Parcial | — |
-| 13 | Gestión de tareas con GitHub Issues y Projects | 1/5 | 3/3 | 4 | 2 | 2 | 2026-11-17 | [Informe](cap13/INFORME_CAP13.md) | Parcial | — |
+| 13 | Gestión de tareas con GitHub Issues y Projects | 1/5 | 3/3 | 4 | 0 | 4 | 2026-11-17 | [Informe](cap13/INFORME_CAP13.md) | Parcial | — |
 | 14 | Pull Requests y colaboración | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap14/INFORME_CAP14.md) | Pendiente | — |
 | 15 | Revisión profesional de código | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap15/INFORME_CAP15.md) | Pendiente | — |
 | 16 | Participación en proyectos de código abierto | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap16/INFORME_CAP16.md) | Pendiente | — |

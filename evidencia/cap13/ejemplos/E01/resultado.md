@@ -16,7 +16,7 @@ Resultado a mostrar: Compruebe que se puede saber objetivamente cuándo cerrar l
 
 2026-11-17 · **SIMULACIÓN DOCUMENTADA**
 
-Preparé una ficha local para el servicio de Issues. La cuenta solo tiene lectura en el repositorio de equipo.
+Preparé la ficha local de funcionalidad.
 
 Artefactos: issue-grafico.md.
 

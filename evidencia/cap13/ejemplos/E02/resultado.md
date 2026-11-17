@@ -14,13 +14,13 @@ Resultado a mostrar: Verifique que otro estudiante podría repetir la falla sin 
 
 ## Resultado
 
-2026-11-17 · **EN PROCESO**
+2026-11-17 · **SIMULACIÓN DOCUMENTADA**
 
-Redacté el informe local y calculé el efecto esperado de la fila alterada. Falta ejecutar la mutación y guardar sus salidas.
+Modifiqué V001 en un CSV separado y comparé el JSON anterior con el recalculado. El ticket se documentó como ficha local.
 
-Artefactos: issue-cifra.md.
+Artefactos: issue-cifra.md y ventas_laboratorio.csv.
 
-
+[Comandos y salidas](comandos.txt)
 
 [Verificación](verificacion.md)
 

@@ -1,5 +1,6 @@
 # Comentario de resolución del laboratorio
 
-La suite inicial descubre cinco pruebas y pasa el caso de totales por sede. La evidencia está en [salida de la ejecución](../../../cap36/ejemplos/E03/comandos.txt) y [pruebas del proyecto](../../../../tests/test_resumen.py).
+Cierro la ficha local de pruebas iniciales. El commit `a55436c8364cb625826c4540a37751f94009bddf` contiene la suite y la evidencia de cinco pruebas aprobadas.
 
-El expediente queda abierto hasta que la implementación tenga un commit asociado.
+- [Suite](../../../../tests/test_resumen.py)
+- [Salida de unittest](../../../cap36/ejemplos/E03/comandos.txt)

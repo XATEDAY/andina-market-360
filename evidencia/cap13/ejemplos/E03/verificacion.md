@@ -2,4 +2,4 @@
 
 2026-11-17
 
-Cuatro etiquetas y justificaciones.
+Cuatro etiquetas propuestas y justificadas.

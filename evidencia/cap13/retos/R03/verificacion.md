@@ -2,4 +2,4 @@
 
 2026-11-17
 
-Plantilla local presente con secciones verificadas.
+Plantilla local comprobada.

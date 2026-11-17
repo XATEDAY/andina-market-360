@@ -10,7 +10,7 @@ Evidencia a entregar: archivo, comando/salida o captura que demuestre el resulta
 
 2026-11-17 · **COMPLETADO Y VERIFICADO**
 
-Organicé ocho tarjetas y justifiqué su prioridad según impacto y dependencia.
+Organicé ocho tarjetas con prioridad justificada.
 
 Artefactos: tablero.md.
 

@@ -17,13 +17,13 @@ EJERCICIOS PROPUESTOS · RESOLUCIÓN INDEPENDIENTE
 
 ## Resultado
 
-2026-11-17 · **EN PROCESO**
+2026-11-17 · **SIMULACIÓN DOCUMENTADA**
 
-Preparé el comentario de resolución con pruebas y archivo, dejando la ficha abierta hasta asociar el commit.
+Cerré la ficha local de pruebas tras confirmar el commit que contiene la suite y enlacé la salida real.
 
 Artefactos: comentario.md.
 
-
+[Comandos y salidas](comandos.txt)
 
 [Verificación](verificacion.md)
 

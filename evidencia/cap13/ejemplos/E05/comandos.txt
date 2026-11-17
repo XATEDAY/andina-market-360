@@ -1,0 +1,4 @@
+$ git show --format=%H --name-only a55436c8364cb625826c4540a37751f94009bddf -- tests/test_resumen.py
+a55436c8364cb625826c4540a37751f94009bddf
+
+tests/test_resumen.py

@@ -2,4 +2,6 @@
 
 2026-11-17
 
-Salida real enlazada; cierre pendiente.
+Commit y salida de cinco pruebas enlazados.
+
+[Comandos y salidas](comandos.txt)

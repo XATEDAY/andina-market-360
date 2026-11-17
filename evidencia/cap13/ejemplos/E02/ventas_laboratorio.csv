@@ -1,0 +1,13 @@
+id,fecha,sede,producto,cantidad,precio_unitario
+V001,2026-09-01,Lima,Monitor,2,250.00
+V002,2026-09-03,Lima,Mouse,2,90.00
+V003,2026-10-05,Lima,Teclado,4,56.00
+V004,2026-10-08,Lima,Audifonos,2,80.00
+V005,2026-09-02,Ica,Monitor,2,100.00
+V006,2026-09-06,Ica,Mouse,3,50.00
+V007,2026-10-04,Ica,Teclado,5,25.00
+V008,2026-10-09,Ica,Audifonos,2,40.00
+V009,2026-09-03,Arequipa,Monitor,2,88.00
+V010,2026-09-07,Arequipa,Mouse,3,40.00
+V011,2026-10-06,Arequipa,Teclado,4,25.00
+V012,2026-10-10,Arequipa,Audifonos,2,40.00

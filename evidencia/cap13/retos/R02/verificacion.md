@@ -2,4 +2,4 @@
 
 2026-11-17
 
-Ocho tarjetas con estados y responsables propuestos.
+Ocho tarjetas con estado y rol.
