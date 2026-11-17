@@ -147,3 +147,7 @@ python src/resumen.py --json docs/data/resumen.json
 ## Resumen de ventas por sede
 
 El informe mostrará los totales de ventas ficticias de Lima, Ica y Arequipa por separado para comparar los resultados de cada sede.
+
+## Filtro de productos previsto
+
+Al elegir un producto, el tablero deberá recalcular los totales por sede con las ventas de ese producto. La opción «Todos» deberá restaurar los totales generales.
