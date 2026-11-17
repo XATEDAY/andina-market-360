@@ -1,7 +1,7 @@
 # Andina Market 360
 
 ## Descripción
-Proyecto académico que consolida y analiza las ventas ficticias de Lima, Ica y Arequipa para facilitar la toma de decisiones comerciales.
+Proyecto académico que consolida y analiza las ventas ficticias de Lima, Ica y Arequipa para facilitar la toma de decisiones comerciales. Los resultados servirán como referencia para comparar el desempeño entre sedes.
 
 ## Problema empresarial
 La empresa necesita consolidar sus ventas y consultar
