@@ -1,0 +1,34 @@
+CAP10_R02 | 2026-11-17T16:19:57-05:00
+$ git switch -c laboratorio/reto-revertir
+Switched to a new branch 'laboratorio/reto-revertir'
+[salida 0]
+
+Edición de README.md aplicada.
+$ git add -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git commit -m "docs: añadir un aviso temporal de revisión"
+[laboratorio/reto-revertir b966c45] docs: añadir un aviso temporal de revisión
+ 1 file changed, 2 insertions(+)
+[salida 0]
+
+$ git log -1 --oneline
+b966c45 docs: añadir un aviso temporal de revisión
+[salida 0]
+
+$ git revert --no-edit b966c45
+[laboratorio/reto-revertir c384910] Revert "docs: añadir un aviso temporal de revisión"
+ Date: Tue Nov 17 16:19:57 2026 -0500
+ 1 file changed, 2 deletions(-)
+[salida 0]
+
+$ git log -2 --oneline
+c384910 Revert "docs: añadir un aviso temporal de revisión"
+b966c45 docs: añadir un aviso temporal de revisión
+[salida 0]
+
+$ git diff --exit-code HEAD~2 HEAD -- README.md
+[salida 0]
+
+El primer commit añadió el aviso y el segundo lo retiró. Ambos siguen en el historial y el README coincide con el original de la rama.

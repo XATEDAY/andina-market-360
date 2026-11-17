@@ -1,0 +1,30 @@
+CAP08_E03 | 2026-11-17T16:18:36-05:00
+$ git status --short
+[salida 0]
+
+$ git switch main
+Switched to branch 'main'
+[salida 0]
+
+$ git merge --no-ff feature/resumen-sedes -m "merge: integrar resumen y encabezado del tablero por sede"
+Merge made by the 'ort' strategy.
+ README.md       |  6 +++++-
+ docs/index.html | 13 +++++++++++++
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+[salida 0]
+
+$ git log --oneline --graph -5
+*   f7084eb merge: integrar resumen y encabezado del tablero por sede
+|\
+| * e43e9ef feat: nombrar tablero de sedes
+| * 1af3abb docs: describir el resumen de ventas por sede
+|/
+* a566019 docs: agregar instrucciones de ejecucion
+* 36b02e5 docs: aclarar uso del tablero
+[salida 0]
+
+$ git grep -n "ventas por sede" -- README.md docs/index.html
+README.md:12:- Calcular los totales de ventas por sede.
+README.md:147:## Resumen de ventas por sede
+docs/index.html:10:    <h1>Tablero de ventas por sede de Andina Market 360</h1>
+[salida 0]

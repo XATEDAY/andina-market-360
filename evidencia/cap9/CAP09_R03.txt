@@ -1,0 +1,14 @@
+CAP09_R03 | 2026-11-17T16:22:11-05:00
+$ git log --graph --oneline -5
+* 505c3f8 docs: aclarar en GitHub la comparación entre sedes
+*   9561f9d merge: integrar los criterios del filtro de productos
+|\
+| * 57ebd0c docs: definir el filtro de productos del tablero
+|/
+*   497df58 merge: integrar corrección del encabezado
+|\
+| * 93ae6dc fix: corregir el encabezado de ejecución del tablero
+|/
+[salida 0]
+
+En main compartido, un push forzado puede mover la referencia a un historial que excluya commits de otras personas. Sus clones divergen y la rama deja de mostrar esos commits. El envío normal exige que el nuevo historial contenga la punta remota. Para integrar trabajo compartido, se trae el historial remoto y se revisa un Pull Request. Si main diverge, se integra preservando ambos historiales.

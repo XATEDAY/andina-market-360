@@ -1,0 +1,35 @@
+CAP08_R02 | 2026-11-17T16:18:38-05:00
+$ git switch main
+Switched to branch 'main'
+[salida 0]
+
+$ git merge --no-ff feature/filtro-productos -m "merge: integrar los criterios del filtro de productos"
+Merge made by the 'ort' strategy.
+ README.md | 4 ++++
+ 1 file changed, 4 insertions(+)
+[salida 0]
+
+$ git log --graph --oneline --decorate -12
+*   9561f9d (HEAD -> main) merge: integrar los criterios del filtro de productos
+|\
+| * 57ebd0c (feature/filtro-productos) docs: definir el filtro de productos del tablero
+|/
+*   497df58 merge: integrar corrección del encabezado
+|\
+| * 93ae6dc (fix/encabezado-tablero) fix: corregir el encabezado de ejecución del tablero
+|/
+*   f7084eb merge: integrar resumen y encabezado del tablero por sede
+|\
+| * e43e9ef feat: nombrar tablero de sedes
+| * 1af3abb docs: describir el resumen de ventas por sede
+|/
+* a566019 docs: agregar instrucciones de ejecucion
+* 36b02e5 docs: aclarar uso del tablero
+* e5a4d14 docs: agregar evidencias de practicas
+* b5eddb4 docs: agregar documentacion de Andina Market
+* a66b7c4 chore: iniciar caso Andina Market
+[salida 0]
+
+$ git grep -n "Filtro de productos previsto" -- README.md
+README.md:151:## Filtro de productos previsto
+[salida 0]

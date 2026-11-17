@@ -1,0 +1,54 @@
+CAP10_E04 | 2026-11-17T16:19:56-05:00
+Edición de README.md aplicada.
+$ git stash push -m "borrador de notas" -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+Saved working directory and index state On laboratorio/revertir: borrador de notas
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git status --short
+[salida 0]
+
+$ git switch main
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+[salida 0]
+
+$ git switch laboratorio/revertir
+Switched to branch 'laboratorio/revertir'
+[salida 0]
+
+$ git stash list
+stash@{0}: On laboratorio/revertir: borrador de notas
+stash@{1}: On main: resguardo local de evidencias previas cap6 y cap7
+[salida 0]
+
+$ git stash pop
+On branch laboratorio/revertir
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (57ccf98610fd1037774095867c791829449aa5e7)
+[salida 0]
+
+$ git diff -- README.md
+diff --git a/README.md b/README.md
+index 591b9c5..9647d65 100644
+--- a/README.md
++++ b/README.md
+@@ -151,3 +151,5 @@ El informe mostrará los totales de ventas ficticias de Lima, Ica y Arequipa por
+ ## Filtro de productos previsto
+
+ Al elegir un producto, el tablero deberá recalcular los totales por sede con las ventas de ese producto. La opción «Todos» deberá restaurar los totales generales.
++
++Borrador: documentar la validación de totales por sede.
+[salida 0]
+
+$ git status --short
+ M README.md
+[salida 0]
+
+Reapareció el borrador en README.md y no se produjeron conflictos. Se conserva en el siguiente commit de laboratorio.

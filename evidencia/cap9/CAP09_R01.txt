@@ -1,0 +1,50 @@
+CAP09_R01 | 2026-11-17T16:20:12-05:00
+$ git status --short
+[salida 0]
+
+$ git remote -v
+origin	[ruta local omitida] (fetch)
+origin	[ruta local omitida] (push)
+[salida 0]
+
+$ git remote rename origin fuente-local
+[salida 0]
+
+$ git remote add origin https://github.com/XATEDAY/andina-market-360.git
+[salida 0]
+
+$ git remote -v
+fuente-local	[ruta local omitida] (fetch)
+fuente-local	[ruta local omitida] (push)
+origin	https://github.com/XATEDAY/andina-market-360.git (fetch)
+origin	https://github.com/XATEDAY/andina-market-360.git (push)
+[salida 0]
+
+$ git ls-remote --symref origin HEAD refs/heads/main
+ref: refs/heads/main	HEAD
+9561f9d3983171a32ea9417a8a51f3995e389227	HEAD
+9561f9d3983171a32ea9417a8a51f3995e389227	refs/heads/main
+[salida 0]
+
+$ git fetch origin
+From https://github.com/XATEDAY/andina-market-360
+ * [new branch]      main       -> origin/main
+[salida 0]
+
+$ git merge --ff-only origin/main
+Updating e5a4d14..9561f9d
+Fast-forward
+ README.md       | 20 +++++++++++++++++++-
+ docs/index.html | 13 +++++++++++++
+ 2 files changed, 32 insertions(+), 1 deletion(-)
+[salida 0]
+
+$ git branch --set-upstream-to=origin/main main
+branch 'main' set up to track 'origin/main'.
+[salida 0]
+
+$ git log -1 --oneline
+9561f9d merge: integrar los criterios del filtro de productos
+[salida 0]
+
+La copia de aprendizaje quedó conectada a GitHub. Su remoto local original se conserva como fuente-local.

@@ -1,0 +1,54 @@
+CAP08_E02 | 2026-11-17T16:18:36-05:00
+Edición de docs/index.html aplicada.
+$ git commit -am "feat: nombrar tablero de sedes"
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/index.html', LF will be replaced by CRLF the next time Git touches it
+[feature/resumen-sedes e43e9ef] feat: nombrar tablero de sedes
+ 1 file changed, 13 insertions(+)
+[salida 0]
+
+$ git log -1 --oneline
+e43e9ef feat: nombrar tablero de sedes
+[salida 0]
+
+$ git show main:docs/index.html
+[salida 0]
+
+$ git diff main...HEAD -- README.md docs/index.html
+diff --git a/README.md b/README.md
+index 5e9e22f..b954c6f 100644
+--- a/README.md
++++ b/README.md
+@@ -142,4 +142,8 @@ Andina Market 360 permite analizar las ventas ficticias de las sedes de Lima, Ic
+
+ Para generar el resumen de ventas, utilizar el comando:
+
+-python src/resumen.py --json docs/data/resumen.json
+\ No newline at end of file
++python src/resumen.py --json docs/data/resumen.json
++
++## Resumen de ventas por sede
++
++El informe mostrará los totales de ventas ficticias de Lima, Ica y Arequipa por separado para comparar los resultados de cada sede.
+diff --git a/docs/index.html b/docs/index.html
+index e69de29..467c521 100644
+--- a/docs/index.html
++++ b/docs/index.html
+@@ -0,0 +1,13 @@
++<!doctype html>
++<html lang="es">
++<head>
++  <meta charset="utf-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1">
++  <title>Andina Market 360</title>
++</head>
++<body>
++  <main>
++    <h1>Tablero de ventas por sede de Andina Market 360</h1>
++  </main>
++</body>
++</html>
+[salida 0]
+
+$ git diff main...HEAD -- data/ventas.csv
+[salida 0]

@@ -1,0 +1,31 @@
+CAP09_E03 | 2026-11-17T16:19:12-05:00
+$ git branch --show-current
+main
+[salida 0]
+
+$ git status --short
+[salida 0]
+
+$ git log -1 --oneline
+9561f9d merge: integrar los criterios del filtro de productos
+[salida 0]
+
+$ git diff --check a566019..HEAD
+[salida 0]
+
+$ git diff --name-status a566019..HEAD
+M	README.md
+M	docs/index.html
+[salida 0]
+
+$ git push -u origin main
+branch 'main' set up to track 'origin/main'.
+To https://github.com/XATEDAY/andina-market-360.git
+ * [new branch]      main -> main
+[salida 0]
+
+$ git ls-remote --symref origin HEAD refs/heads/main
+ref: refs/heads/main	HEAD
+9561f9d3983171a32ea9417a8a51f3995e389227	HEAD
+9561f9d3983171a32ea9417a8a51f3995e389227	refs/heads/main
+[salida 0]

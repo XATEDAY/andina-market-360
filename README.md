@@ -151,3 +151,7 @@ El informe mostrará los totales de ventas ficticias de Lima, Ica y Arequipa por
 ## Filtro de productos previsto
 
 Al elegir un producto, el tablero deberá recalcular los totales por sede con las ventas de ese producto. La opción «Todos» deberá restaurar los totales generales.
+
+## Prácticas y relevo
+
+Consulta el [relevo para el compañero](docs/RELEVO_COMPANERO.md) para continuar el proyecto y encontrar las evidencias de los capítulos 8, 9 y 10. El cálculo en Python, las pruebas y el filtro de productos están pendientes de implementación.

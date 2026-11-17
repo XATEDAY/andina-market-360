@@ -1,0 +1,45 @@
+CAP08_E01 | 2026-11-17T16:18:14-05:00
+$ git status --short --branch
+## main
+?? evidencia/cap6/CAP06_E05.png
+?? evidencia/cap7/
+?? evidencia/cap8/
+[salida 0]
+
+$ git branch --show-current
+main
+[salida 0]
+
+$ git stash push --include-untracked -m "resguardo local de evidencias previas cap6 y cap7" -- evidencia/cap6/CAP06_E05.png evidencia/cap7
+Saved working directory and index state On main: resguardo local de evidencias previas cap6 y cap7
+[salida 0]
+
+$ git status --short
+?? evidencia/cap8/
+[salida 0]
+
+CAP08_E01 | 2026-11-17T16:18:36-05:00
+$ git status --short
+[salida 0]
+
+$ git switch -c feature/resumen-sedes
+Switched to a new branch 'feature/resumen-sedes'
+[salida 0]
+
+Edición de README.md aplicada.
+$ git add -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git commit -m "docs: describir el resumen de ventas por sede"
+[feature/resumen-sedes 1af3abb] docs: describir el resumen de ventas por sede
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+[salida 0]
+
+$ git log -1 --oneline
+1af3abb docs: describir el resumen de ventas por sede
+[salida 0]
+
+$ git branch --show-current
+feature/resumen-sedes
+[salida 0]

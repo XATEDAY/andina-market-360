@@ -1,0 +1,70 @@
+CAP10_E01 | 2026-11-17T16:19:54-05:00
+$ git status --short
+[salida 0]
+
+$ git branch --show-current
+main
+[salida 0]
+
+$ git switch -c prueba/alternativa-a
+Switched to a new branch 'prueba/alternativa-a'
+[salida 0]
+
+Edición de README.md aplicada.
+$ git add -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git commit -m "docs: destacar el tablero de ventas en el título"
+[prueba/alternativa-a 82dfa17] docs: destacar el tablero de ventas en el título
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[salida 0]
+
+$ git log -1 --oneline
+82dfa17 docs: destacar el tablero de ventas en el título
+[salida 0]
+
+$ git switch main
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+[salida 0]
+
+$ git switch -c prueba/alternativa-b
+Switched to a new branch 'prueba/alternativa-b'
+[salida 0]
+
+Edición de README.md aplicada.
+$ git add -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git commit -m "docs: destacar los resultados por sede en el título"
+[prueba/alternativa-b b9895c4] docs: destacar los resultados por sede en el título
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[salida 0]
+
+$ git log -1 --oneline
+b9895c4 docs: destacar los resultados por sede en el título
+[salida 0]
+
+$ git merge --no-edit prueba/alternativa-a
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+[salida 1]
+
+$ git status --short
+UU README.md
+[salida 0]
+
+$ git ls-files -u -- README.md
+100644 591b9c5aeb8316b714572d7b1beff94388fc49a0 1	README.md
+100644 2b6453da78686851700d506f83089c546482533b 2	README.md
+100644 0c81517b313446830603a492162330c5976b5a8d 3	README.md
+[salida 0]
+
+$ git grep -n -E ^(<{7}|={7}|>{7}) -- README.md
+README.md:1:<<<<<<< HEAD
+README.md:3:=======
+README.md:5:>>>>>>> prueba/alternativa-a
+[salida 0]

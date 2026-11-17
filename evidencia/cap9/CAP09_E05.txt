@@ -1,0 +1,49 @@
+CAP09_E05 | 2026-11-17T16:22:08-05:00
+$ git status --short
+[salida 0]
+
+$ git rev-parse HEAD
+9561f9d3983171a32ea9417a8a51f3995e389227
+[salida 0]
+
+$ git hash-object README.md
+591b9c5aeb8316b714572d7b1beff94388fc49a0
+[salida 0]
+
+$ git fetch origin
+From https://github.com/XATEDAY/andina-market-360
+   9561f9d..505c3f8  main       -> origin/main
+[salida 0]
+
+$ git log --oneline HEAD..origin/main
+505c3f8 docs: aclarar en GitHub la comparación entre sedes
+[salida 0]
+
+$ git diff HEAD..origin/main -- README.md
+diff --git a/README.md b/README.md
+index 591b9c5..8207fd5 100644
+--- a/README.md
++++ b/README.md
+@@ -1,7 +1,7 @@
+ # Andina Market 360
+
+ ## Descripción
+-Proyecto académico que consolida y analiza las ventas ficticias de Lima, Ica y Arequipa para facilitar la toma de decisiones comerciales.
++Proyecto académico que consolida y analiza las ventas ficticias de Lima, Ica y Arequipa para facilitar la toma de decisiones comerciales. Los resultados servirán como referencia para comparar el desempeño entre sedes.
+
+ ## Problema empresarial
+ La empresa necesita consolidar sus ventas y consultar
+[salida 0]
+
+$ git rev-parse HEAD
+9561f9d3983171a32ea9417a8a51f3995e389227
+[salida 0]
+
+$ git hash-object README.md
+591b9c5aeb8316b714572d7b1beff94388fc49a0
+[salida 0]
+
+$ git status --short
+[salida 0]
+
+Fetch actualizó origin/main. HEAD y el blob del README de trabajo conservaron sus hashes anteriores. Se decidió integrar por avance rápido.

@@ -1,0 +1,5 @@
+CAP09_E01 | 2026-11-17T16:19:05-05:00
+$ git remote -v
+[salida 0]
+
+No había remotos configurados. Destino esperado: https://github.com/XATEDAY/andina-market-360.git

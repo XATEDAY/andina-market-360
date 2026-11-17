@@ -1,0 +1,28 @@
+CAP09_E04 | 2026-11-17T16:22:08-05:00
+Acción en Brave: se editó README.md desde el editor web de GitHub, se añadió una frase a la descripción y se confirmó directamente en main.
+Blob README.md verificado mediante el conector GitHub: 8207fd51eb65a5b6ad3a35079ca612ca889243ea
+CAP09_E04 | 2026-11-17T16:22:10-05:00
+$ git pull --ff-only origin main
+From https://github.com/XATEDAY/andina-market-360
+ * branch            main       -> FETCH_HEAD
+Updating 9561f9d..505c3f8
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[salida 0]
+
+$ git log -2 --oneline
+505c3f8 docs: aclarar en GitHub la comparación entre sedes
+9561f9d merge: integrar los criterios del filtro de productos
+[salida 0]
+
+$ git grep -n "Los resultados servirán" -- README.md
+README.md:4:Proyecto académico que consolida y analiza las ventas ficticias de Lima, Ica y Arequipa para facilitar la toma de decisiones comerciales. Los resultados servirán como referencia para comparar el desempeño entre sedes.
+[salida 0]
+
+$ git hash-object README.md
+8207fd51eb65a5b6ad3a35079ca612ca889243ea
+[salida 0]
+
+$ git status --short
+[salida 0]

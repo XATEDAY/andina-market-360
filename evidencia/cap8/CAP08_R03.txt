@@ -1,0 +1,101 @@
+CAP08_R03 | 2026-11-17T16:18:38-05:00
+$ git status --short
+[salida 0]
+
+$ git switch fix/encabezado-tablero
+Switched to branch 'fix/encabezado-tablero'
+[salida 0]
+
+Edición de docs/index.html aplicada.
+$ git switch main
+M	docs/index.html
+Switched to branch 'main'
+[salida 0]
+
+$ git status --short
+ M docs/index.html
+[salida 0]
+
+$ git diff -- docs/index.html
+warning: in the working copy of 'docs/index.html', LF will be replaced by CRLF the next time Git touches it
+diff --git a/docs/index.html b/docs/index.html
+index 467c521..4f49390 100644
+--- a/docs/index.html
++++ b/docs/index.html
+@@ -11,3 +11,5 @@
+   </main>
+ </body>
+ </html>
++
++<!-- Borrador local para comparar cambios de rama -->
+[salida 0]
+
+$ git switch fix/encabezado-tablero
+M	docs/index.html
+Switched to branch 'fix/encabezado-tablero'
+[salida 0]
+
+Se repuso la copia en memoria del HTML tras comprobar el traslado del borrador propio.
+Edición de README.md aplicada.
+$ git switch main
+error: Your local changes to the following files would be overwritten by checkout:
+	README.md
+Please commit your changes or stash them before you switch branches.
+Aborting
+[salida 1]
+
+$ git branch --show-current
+fix/encabezado-tablero
+[salida 0]
+
+$ git diff -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+diff --git a/README.md b/README.md
+index 35fc5d9..0b6a4aa 100644
+--- a/README.md
++++ b/README.md
+@@ -146,4 +146,4 @@ python src/resumen.py --json docs/data/resumen.json
+
+ ## Resumen de ventas por sede
+
+-El informe mostrará los totales de ventas ficticias de Lima, Ica y Arequipa por separado para comparar los resultados de cada sede.
++El informe mostrará los totales de ventas ficticias de Lima, Ica y Arequipa por separado para comparar los resultados de cada sede comercial.
+[salida 0]
+
+Edición de README.md aplicada.
+$ git switch main
+error: Your local changes to the following files would be overwritten by checkout:
+	README.md
+Please commit your changes or stash them before you switch branches.
+Aborting
+[salida 1]
+
+CAP08_R03 | 2026-11-17T16:18:55-05:00
+$ git diff -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+CAP08_R03 | 2026-11-17T16:19:04-05:00
+$ git diff --quiet -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git add -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git diff --cached
+[salida 0]
+
+$ git switch main
+Switched to branch 'main'
+[salida 0]
+
+$ git status --short
+[salida 0]
+
+$ git log -1 --oneline
+9561f9d merge: integrar los criterios del filtro de productos
+[salida 0]
+
+Git trasladó el cambio compatible de HTML y bloqueó el cambio de rama que habría sobrescrito el borrador de README.

@@ -1,0 +1,42 @@
+CAP08_E04 | 2026-11-17T16:18:37-05:00
+$ git switch -c fix/encabezado-tablero
+Switched to a new branch 'fix/encabezado-tablero'
+[salida 0]
+
+Edición de README.md aplicada.
+$ git add -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git commit -m "fix: corregir el encabezado de ejecución del tablero"
+[fix/encabezado-tablero 93ae6dc] fix: corregir el encabezado de ejecución del tablero
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[salida 0]
+
+$ git log -1 --oneline
+93ae6dc fix: corregir el encabezado de ejecución del tablero
+[salida 0]
+
+$ git switch main
+Switched to branch 'main'
+[salida 0]
+
+$ git merge --no-ff fix/encabezado-tablero -m "merge: integrar corrección del encabezado"
+Merge made by the 'ort' strategy.
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[salida 0]
+
+$ git log -1 --oneline
+497df58 merge: integrar corrección del encabezado
+[salida 0]
+
+$ py -m unittest discover -s tests -v
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+[salida 0]
+
+El descubrimiento ejecutó cero pruebas. La validación del análisis queda pendiente.

@@ -1,0 +1,18 @@
+CAP08_R01 | 2026-11-17T16:18:37-05:00
+$ git switch -c feature/filtro-productos
+Switched to a new branch 'feature/filtro-productos'
+[salida 0]
+
+Edición de README.md aplicada.
+$ git add -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git commit -m "docs: definir el filtro de productos del tablero"
+[feature/filtro-productos 57ebd0c] docs: definir el filtro de productos del tablero
+ 1 file changed, 4 insertions(+)
+[salida 0]
+
+$ git log -1 --oneline
+57ebd0c docs: definir el filtro de productos del tablero
+[salida 0]

@@ -1,0 +1,49 @@
+CAP10_E02 | 2026-11-17T16:19:55-05:00
+$ git diff --cc -- README.md
+diff --cc README.md
+index 2b6453d,0c81517..0000000
+--- a/README.md
++++ b/README.md
+@@@ -1,4 -1,4 +1,8 @@@
+++<<<<<<< HEAD
+ +# Andina Market 360 | Resultados por sede
+++=======
++ # Andina Market 360 | Tablero de ventas
+++>>>>>>> prueba/alternativa-a
+
+  ## Descripción
+  Proyecto académico que consolida y analiza las ventas ficticias de Lima, Ica y Arequipa para facilitar la toma de decisiones comerciales.
+[salida 0]
+
+Edición de README.md aplicada.
+$ git add -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git commit -m "merge: combinar tablero de ventas y resultados por sede"
+[prueba/alternativa-b a93ac54] merge: combinar tablero de ventas y resultados por sede
+[salida 0]
+
+$ git log -1 --oneline
+a93ac54 merge: combinar tablero de ventas y resultados por sede
+[salida 0]
+
+$ git status --short --branch
+## prueba/alternativa-b
+[salida 0]
+
+$ git log -1 "--format=%h %p %s"
+a93ac54 b9895c4 82dfa17 merge: combinar tablero de ventas y resultados por sede
+[salida 0]
+
+$ git grep -n "Tablero de ventas por sede" -- README.md
+README.md:1:# Andina Market 360 | Tablero de ventas por sede
+[salida 0]
+
+$ git grep -n -E ^(<{7}|={7}|>{7}) -- README.md
+[salida 1]
+
+$ git switch main
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+[salida 0]

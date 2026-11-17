@@ -1,0 +1,99 @@
+CAP10_R01 | 2026-11-17T16:19:56-05:00
+$ git switch -c laboratorio/reto-conflicto-a
+Switched to a new branch 'laboratorio/reto-conflicto-a'
+[salida 0]
+
+Edición de docs/index.html aplicada.
+$ git add -- docs/index.html
+warning: in the working copy of 'docs/index.html', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git commit -m "docs: identificar el período mensual en el título HTML"
+[laboratorio/reto-conflicto-a 22258c4] docs: identificar el período mensual en el título HTML
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[salida 0]
+
+$ git log -1 --oneline
+22258c4 docs: identificar el período mensual en el título HTML
+[salida 0]
+
+$ git switch main
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+[salida 0]
+
+$ git switch -c laboratorio/reto-conflicto-b
+Switched to a new branch 'laboratorio/reto-conflicto-b'
+[salida 0]
+
+Edición de docs/index.html aplicada.
+$ git add -- docs/index.html
+warning: in the working copy of 'docs/index.html', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git commit -m "docs: identificar la comparación de sedes en el título HTML"
+[laboratorio/reto-conflicto-b 476bc9b] docs: identificar la comparación de sedes en el título HTML
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[salida 0]
+
+$ git log -1 --oneline
+476bc9b docs: identificar la comparación de sedes en el título HTML
+[salida 0]
+
+$ git merge --no-edit laboratorio/reto-conflicto-a
+Auto-merging docs/index.html
+CONFLICT (content): Merge conflict in docs/index.html
+Automatic merge failed; fix conflicts and then commit the result.
+[salida 1]
+
+$ git status --short
+UU docs/index.html
+[salida 0]
+
+$ git diff --cc -- docs/index.html
+diff --cc docs/index.html
+index b9c0b39,02ac7a9..0000000
+--- a/docs/index.html
++++ b/docs/index.html
+@@@ -3,7 -3,7 +3,11 @@@
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+++<<<<<<< HEAD
+ +  <title>Andina Market 360 | Comparación por sede</title>
+++=======
++   <title>Andina Market 360 | Ventas mensuales</title>
+++>>>>>>> laboratorio/reto-conflicto-a
+  </head>
+  <body>
+    <main>
+[salida 0]
+
+Edición de docs/index.html aplicada.
+$ git add -- docs/index.html
+warning: in the working copy of 'docs/index.html', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git commit -m "merge: conservar período mensual y comparación por sede"
+[laboratorio/reto-conflicto-b cbec1a0] merge: conservar período mensual y comparación por sede
+[salida 0]
+
+$ git log -1 --oneline
+cbec1a0 merge: conservar período mensual y comparación por sede
+[salida 0]
+
+$ git log -1 "--format=%h %p %s"
+cbec1a0 476bc9b 22258c4 merge: conservar período mensual y comparación por sede
+[salida 0]
+
+$ git grep -n "Ventas mensuales y comparación por sede" -- docs/index.html
+docs/index.html:6:  <title>Andina Market 360 | Ventas mensuales y comparación por sede</title>
+[salida 0]
+
+$ git status --short
+[salida 0]
+
+$ git switch main
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+[salida 0]

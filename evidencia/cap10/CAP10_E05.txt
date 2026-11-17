@@ -1,0 +1,60 @@
+CAP10_E05 | 2026-11-17T16:19:56-05:00
+$ git add -- README.md
+[salida 0]
+
+$ git commit -m "docs: recuperar borrador de validación de totales"
+[laboratorio/revertir 1bf583f] docs: recuperar borrador de validación de totales
+ 1 file changed, 2 insertions(+)
+[salida 0]
+
+$ git log -1 --oneline
+1bf583f docs: recuperar borrador de validación de totales
+[salida 0]
+
+Edición de README.md aplicada.
+$ git add -- README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+[salida 0]
+
+$ git commit -m "docs: precisar la fuente de validación del borrador"
+[laboratorio/revertir 3748759] docs: precisar la fuente de validación del borrador
+ 1 file changed, 2 insertions(+)
+[salida 0]
+
+$ git log -1 --oneline
+3748759 docs: precisar la fuente de validación del borrador
+[salida 0]
+
+$ git log -2 --oneline
+3748759 docs: precisar la fuente de validación del borrador
+1bf583f docs: recuperar borrador de validación de totales
+[salida 0]
+
+$ git reflog -5
+3748759 HEAD@{0}: commit: docs: precisar la fuente de validación del borrador
+1bf583f HEAD@{1}: commit: docs: recuperar borrador de validación de totales
+6c6426f HEAD@{2}: checkout: moving from main to laboratorio/revertir
+9561f9d HEAD@{3}: checkout: moving from laboratorio/revertir to main
+6c6426f HEAD@{4}: revert: Revert "docs: añadir nota temporal del resumen"
+[salida 0]
+
+$ git show "--format=%h %s" 1bf583f -- README.md
+1bf583f docs: recuperar borrador de validación de totales
+
+diff --git a/README.md b/README.md
+index 591b9c5..9647d65 100644
+--- a/README.md
++++ b/README.md
+@@ -151,3 +151,5 @@ El informe mostrará los totales de ventas ficticias de Lima, Ica y Arequipa por
+ ## Filtro de productos previsto
+
+ Al elegir un producto, el tablero deberá recalcular los totales por sede con las ventas de ese producto. La opción «Todos» deberá restaurar los totales generales.
++
++Borrador: documentar la validación de totales por sede.
+[salida 0]
+
+Punto de recuperación comprobado: 1bf583f
+$ git switch main
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+[salida 0]

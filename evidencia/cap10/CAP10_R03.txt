@@ -1,0 +1,43 @@
+CAP10_R03 | 2026-11-17T16:19:58-05:00
+$ git reflog -8
+c384910 HEAD@{0}: revert: Revert "docs: añadir un aviso temporal de revisión"
+b966c45 HEAD@{1}: commit: docs: añadir un aviso temporal de revisión
+9561f9d HEAD@{2}: checkout: moving from main to laboratorio/reto-revertir
+9561f9d HEAD@{3}: checkout: moving from laboratorio/reto-conflicto-b to main
+cbec1a0 HEAD@{4}: commit (merge): merge: conservar período mensual y comparación por sede
+476bc9b HEAD@{5}: commit: docs: identificar la comparación de sedes en el título HTML
+9561f9d HEAD@{6}: checkout: moving from main to laboratorio/reto-conflicto-b
+9561f9d HEAD@{7}: checkout: moving from laboratorio/reto-conflicto-a to main
+[salida 0]
+
+$ git rev-parse HEAD@{1}
+b966c45788c1f517f18ccb2d318d779bcd87aa96
+[salida 0]
+
+$ git show "--format=%h %s" b966c45788c1f517f18ccb2d318d779bcd87aa96 -- README.md
+b966c45 docs: añadir un aviso temporal de revisión
+
+diff --git a/README.md b/README.md
+index 591b9c5..c790163 100644
+--- a/README.md
++++ b/README.md
+@@ -151,3 +151,5 @@ El informe mostrará los totales de ventas ficticias de Lima, Ica y Arequipa por
+ ## Filtro de productos previsto
+
+ Al elegir un producto, el tablero deberá recalcular los totales por sede con las ventas de ese producto. La opción «Todos» deberá restaurar los totales generales.
++
++Aviso temporal: congelar el tablero para una revisión simulada.
+[salida 0]
+
+$ git log -1 --oneline
+c384910 Revert "docs: añadir un aviso temporal de revisión"
+[salida 0]
+
+Estado anterior localizado e inspeccionado: b966c45788c1f517f18ccb2d318d779bcd87aa96. HEAD permaneció en la reversión.
+$ git switch main
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+[salida 0]
+
+$ git status --short
+[salida 0]

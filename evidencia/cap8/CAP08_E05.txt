@@ -1,0 +1,18 @@
+CAP08_E05 | 2026-11-17T16:18:37-05:00
+$ git branch --merged
+  feature/resumen-sedes
+  fix/encabezado-tablero
+* main
+[salida 0]
+
+$ git merge-base --is-ancestor feature/resumen-sedes main
+[salida 0]
+
+$ git branch -d feature/resumen-sedes
+Deleted branch feature/resumen-sedes (was e43e9ef).
+[salida 0]
+
+$ git branch
+  fix/encabezado-tablero
+* main
+[salida 0]

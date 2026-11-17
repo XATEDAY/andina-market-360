@@ -1,0 +1,60 @@
+CAP09_R02 | 2026-11-17T16:22:11-05:00
+Comparación hecha en andina-market-copia con el commit del README creado en el editor web de GitHub.
+$ git status --short
+[salida 0]
+
+$ git rev-parse HEAD
+9561f9d3983171a32ea9417a8a51f3995e389227
+[salida 0]
+
+$ git hash-object README.md
+591b9c5aeb8316b714572d7b1beff94388fc49a0
+[salida 0]
+
+$ git fetch origin
+From https://github.com/XATEDAY/andina-market-360
+   9561f9d..505c3f8  main       -> origin/main
+[salida 0]
+
+$ git log --oneline HEAD..origin/main
+505c3f8 docs: aclarar en GitHub la comparación entre sedes
+[salida 0]
+
+$ git rev-parse HEAD
+9561f9d3983171a32ea9417a8a51f3995e389227
+[salida 0]
+
+$ git hash-object README.md
+591b9c5aeb8316b714572d7b1beff94388fc49a0
+[salida 0]
+
+$ git pull --ff-only origin main
+From https://github.com/XATEDAY/andina-market-360
+ * branch            main       -> FETCH_HEAD
+Updating 9561f9d..505c3f8
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[salida 0]
+
+$ git rev-parse HEAD
+505c3f8aea2e1a5b2d1f7961e01ba1ce6e37b5a3
+[salida 0]
+
+$ git rev-parse origin/main
+505c3f8aea2e1a5b2d1f7961e01ba1ce6e37b5a3
+[salida 0]
+
+$ git hash-object README.md
+8207fd51eb65a5b6ad3a35079ca612ca889243ea
+[salida 0]
+
+$ git log -2 --oneline
+505c3f8 docs: aclarar en GitHub la comparación entre sedes
+9561f9d merge: integrar los criterios del filtro de productos
+[salida 0]
+
+$ git status --short
+[salida 0]
+
+Fetch actualizó la referencia origin/main sin tocar el archivo de trabajo. Pull incorporó el commit a main y cambió el README.
