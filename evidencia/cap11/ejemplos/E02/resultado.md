@@ -25,3 +25,5 @@ Artefactos: README.md de laboratorio.
 [Verificación](verificacion.md)
 
 Commit de la práctica: 880930dab8becbc9122f2dcb1c3c95004c1db0ca.
+
+[Captura del archivo abierto en Chrome](CAP11_E02_archivo.png). Archivo observado: `comandos.txt`.

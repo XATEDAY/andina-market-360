@@ -1,0 +1,29 @@
+$ git switch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+Switched to branch 'main'
+$ git status --short
+$ python -m unittest discover -s tests
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+$ git tag -a v1.0.0 -m Primera versión de Andina Market
+$ git tag --list
+v1.0.0
+$ git show v1.0.0 --stat
+tag v1.0.0
+Tagger: Ulises122006 <212186165+Ulises122006@users.noreply.github.com>
+Date:   Tue Nov 17 17:45:23 2026 -0500
+
+Primera versión de Andina Market
+
+commit 4a0d376e90b3c6f7f66e89fe9a081e25da2e904a
+Author: Ulises122006 <212186165+Ulises122006@users.noreply.github.com>
+Date:   Tue Nov 17 17:44:01 2026 -0500
+
+    docs: indicar el periodo de ventas ficticias
+
+ docs/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)

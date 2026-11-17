@@ -1,0 +1,17 @@
+$ git switch docs/mejora-uso
+Already on 'docs/mejora-uso'
+$ git show --stat HEAD
+commit 6238ebaf47e5071b9da5fea979399fdc7a5c04a1
+Author: Ulises122006 <212186165+Ulises122006@users.noreply.github.com>
+Date:   Tue Nov 17 17:44:02 2026 -0500
+
+    docs: explicar el periodo del informe
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+$ python -m unittest discover -s tests
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK

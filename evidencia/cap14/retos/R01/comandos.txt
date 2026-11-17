@@ -1,0 +1,12 @@
+$ git var GIT_AUTHOR_IDENT
+Ulises122006 <212186165+Ulises122006@users.noreply.github.com> 1794955442 -0500
+$ git add -- README.md
+$ git diff --cached --check
+$ git diff --cached --stat
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git commit -m docs: explicar el periodo del informe
+[docs/mejora-uso 6238eba] docs: explicar el periodo del informe
+ 1 file changed, 2 insertions(+)
+$ git log -1 --format=Hash: %H
+Hash: 6238ebaf47e5071b9da5fea979399fdc7a5c04a1

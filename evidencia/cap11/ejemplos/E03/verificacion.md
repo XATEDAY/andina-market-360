@@ -5,3 +5,5 @@
 Rama y commit comprobados.
 
 [Comandos y salidas](comandos.txt)
+
+[Captura del artefacto local](CAP11_E03_archivo.png).

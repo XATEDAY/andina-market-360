@@ -5,3 +5,5 @@
 Tres sedes del CSV y cuatro columnas comprobadas.
 
 [Comandos y salidas](comandos.txt)
+
+[Captura del artefacto local](CAP12_E02_archivo.png).

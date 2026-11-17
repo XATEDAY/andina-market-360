@@ -5,3 +5,5 @@
 Las órdenes terminaron correctamente.
 
 [Comandos y salidas](comandos.txt)
+
+[Captura del artefacto local](CAP12_R01_archivo.png).

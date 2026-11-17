@@ -11,11 +11,11 @@
   <main>
     <nav aria-label="Páginas del tablero"><a href="productos.html">Ventas por producto</a></nav>
     <h1>Tablero de ventas por sede de Andina Market 360</h1>
-    <p>Fuente de datos ficticios <a href="data/resumen.json">resumen generado a partir de ventas.csv</a>.</p>
-    <p id="estado" role="status">Cargando resumen…</p>
+    <p>Fuente de datos ficticios <a href="./data/resumen.json">resumen generado a partir de ventas.csv</a>. Resumen verificado el <time datetime="2026-11-17">2026-11-17</time>.</p>
+    <p class="indicador" id="estado" role="status">Cargando resumen…</p>
     <label for="producto">Producto</label>
     <select id="producto" disabled><option value="">Todos</option></select>
-    <table>
+    <table class="sedes">
       <caption>Importes por sede en soles</caption>
       <thead><tr><th scope="col">Sede</th><th scope="col">Importe</th></tr></thead>
       <tbody id="filas"></tbody>

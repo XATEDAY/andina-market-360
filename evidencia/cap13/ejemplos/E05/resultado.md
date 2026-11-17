@@ -28,3 +28,5 @@ Artefactos: comentario.md.
 [Verificación](verificacion.md)
 
 Commit de la práctica: —.
+
+[Captura del archivo abierto en Chrome](CAP13_E05_archivo.png). Archivo observado: `comandos.txt`.

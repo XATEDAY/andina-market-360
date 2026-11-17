@@ -25,3 +25,5 @@ Artefactos: issue-grafico.md.
 [Verificación](verificacion.md)
 
 Commit de la práctica: —.
+
+[Captura del archivo abierto en Chrome](CAP13_E01_archivo.png). Archivo observado: `issue-grafico.md`.

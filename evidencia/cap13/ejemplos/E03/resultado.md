@@ -25,3 +25,5 @@ Artefactos: etiquetas.md.
 [Verificación](verificacion.md)
 
 Commit de la práctica: —.
+
+[Captura del archivo abierto en Chrome](CAP13_E03_archivo.png). Archivo observado: `etiquetas.md`.

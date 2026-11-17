@@ -19,3 +19,5 @@ Artefactos: .github/ISSUE_TEMPLATE/bug_report.md.
 [Verificación](verificacion.md)
 
 Commit de la práctica: —.
+
+[Captura del archivo abierto en Chrome](CAP13_R03_archivo.png). Archivo observado: `.github/ISSUE_TEMPLATE/bug_report.md`.

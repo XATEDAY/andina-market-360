@@ -1,0 +1,10 @@
+$ git rev-parse v1.0.0^{}
+4a0d376e90b3c6f7f66e89fe9a081e25da2e904a
+$ git switch -c prueba/revision-desde-tag v1.0.0
+Switched to a new branch 'prueba/revision-desde-tag'
+$ python -m unittest discover -s tests
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK

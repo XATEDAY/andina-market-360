@@ -25,3 +25,5 @@ Artefactos: issue-cifra.md y ventas_laboratorio.csv.
 [Verificación](verificacion.md)
 
 Commit de la práctica: —.
+
+[Captura del archivo abierto en Chrome](CAP13_E02_archivo.png). Archivo observado: `comandos.txt`.

@@ -5,3 +5,5 @@
 La rama activa fue feature/ficha-sedes.
 
 [Comandos y salidas](comandos.txt)
+
+[Captura del artefacto local](CAP11_R02_archivo.png).

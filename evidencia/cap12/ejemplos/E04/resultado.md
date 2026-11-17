@@ -25,3 +25,5 @@ Artefactos: README.md y docs/manual.md.
 [Verificación](verificacion.md)
 
 Commit de la práctica: —.
+
+[Captura del archivo abierto en Chrome](CAP12_E04_archivo.png). Archivo observado: `comandos.txt`.

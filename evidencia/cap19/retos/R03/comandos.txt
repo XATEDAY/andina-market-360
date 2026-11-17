@@ -1,0 +1,1 @@
+HTTP local: portada, JSON y productos accesibles. Portada: 3 filas; productos: 12 filas. Accesibilidad: foco por teclado, 2 encabezados scope=col y contraste 12.01:1.

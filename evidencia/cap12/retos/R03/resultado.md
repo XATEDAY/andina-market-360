@@ -19,3 +19,5 @@ Artefactos: README_antes.md y README_corregido.md.
 [Verificación](verificacion.md)
 
 Commit de la práctica: —.
+
+[Captura del archivo abierto en Chrome](CAP12_R03_archivo.png). Archivo observado: `comandos.txt`.

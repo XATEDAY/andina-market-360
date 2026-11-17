@@ -5,3 +5,5 @@
 Historial y tabla registrados.
 
 [Comandos y salidas](comandos.txt)
+
+[Captura del artefacto local](CAP11_E05_archivo.png).

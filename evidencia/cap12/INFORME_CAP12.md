@@ -35,3 +35,7 @@ python -m unittest discover -s tests -v
 - [CAP12_R01](retos/R01/resultado.md) · COMPLETADO Y VERIFICADO. Las órdenes terminaron correctamente.
 - [CAP12_R02](retos/R02/resultado.md) · COMPLETADO Y VERIFICADO. Cuatro filas con cálculo y fuente.
 - [CAP12_R03](retos/R03/resultado.md) · COMPLETADO Y VERIFICADO. Cinco rutas fallaban antes y las cinco resuelven después.
+
+## Capturas del corte
+
+8 PNG enlazados en las fichas y la matriz. Las capturas de documentos y transcripciones muestran los artefactos locales abiertos en Chrome.

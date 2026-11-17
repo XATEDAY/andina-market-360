@@ -5,3 +5,5 @@
 Destinos válidos; falta abrir ambos desde el visor.
 
 [Comandos y salidas](comandos.txt)
+
+[Captura del artefacto local](CAP12_E04_archivo.png).

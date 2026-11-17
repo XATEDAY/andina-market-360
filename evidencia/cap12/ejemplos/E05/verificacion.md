@@ -5,3 +5,5 @@
 La guía incluye los cinco controles solicitados.
 
 [Comandos y salidas](comandos.txt)
+
+[Captura del artefacto local](CAP12_E05_archivo.png).

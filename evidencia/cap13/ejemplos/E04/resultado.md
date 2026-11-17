@@ -25,3 +25,5 @@ Artefactos: tablero.md.
 [Verificación](verificacion.md)
 
 Commit de la práctica: —.
+
+[Captura del archivo abierto en Chrome](CAP13_E04_archivo.png). Archivo observado: `tablero.md`.

@@ -1,0 +1,9 @@
+$ git log -2 --oneline feature/ficha-sedes
+4a0d376 docs: indicar el periodo de ventas ficticias
+e86e0d7 docs: presentar las sedes del tablero
+$ git log --oneline main..docs/mejora-uso
+6238eba docs: explicar el periodo del informe
+$ git branch -v
+* docs/mejora-uso     6238eba docs: explicar el periodo del informe
+  feature/ficha-sedes 4a0d376 docs: indicar el periodo de ventas ficticias
+  main                4a0d376 [ahead 2] docs: indicar el periodo de ventas ficticias

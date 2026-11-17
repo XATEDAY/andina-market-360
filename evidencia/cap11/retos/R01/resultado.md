@@ -19,3 +19,5 @@ Artefactos: README.md y proyecto.md de laboratorio.
 [Verificación](verificacion.md)
 
 Commit de la práctica: 7e603ef6739b4923c16db7825acdab617947aaa4, 102a09b8236e19b85e9befe2566efe2f056b22c0.
+
+[Captura del archivo abierto en Chrome](CAP11_R01_archivo.png). Archivo observado: `comandos.txt`.

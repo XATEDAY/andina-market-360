@@ -5,3 +5,5 @@
 Cinco rutas fallaban antes y las cinco resuelven después.
 
 [Comandos y salidas](comandos.txt)
+
+[Captura del artefacto local](CAP12_R03_archivo.png).

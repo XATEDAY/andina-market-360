@@ -19,3 +19,5 @@ Artefactos: docs/manual.md.
 [Verificación](verificacion.md)
 
 Commit de la práctica: —.
+
+[Captura del archivo abierto en Chrome](CAP12_R02_archivo.png). Archivo observado: `docs/manual.md`.

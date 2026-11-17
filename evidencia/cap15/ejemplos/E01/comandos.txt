@@ -1,0 +1,13 @@
+$ git diff main...feature/ficha-sedes
+diff --git a/docs/index.html b/docs/index.html
+index 2e6e764..a6086a2 100644
+--- a/docs/index.html
++++ b/docs/index.html
+@@ -11,6 +11,7 @@
+   <main>
+     <nav aria-label="Páginas del tablero"><a href="productos.html">Ventas por producto</a></nav>
+     <h1>Tablero de ventas por sede de Andina Market 360</h1>
++    <p>Lima, Ica y Arequipa · ventas ficticias · septiembre y octubre de 2026</p>
+     <p>Fuente de datos ficticios <a href="data/resumen.json">resumen generado a partir de ventas.csv</a>.</p>
+     <p id="estado" role="status">Cargando resumen…</p>
+     <label for="producto">Producto</label>

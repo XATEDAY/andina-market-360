@@ -18,3 +18,6 @@ table { margin-top: 1.5rem; width: 100%; border-collapse: collapse; }
 caption { text-align: left; font-weight: 700; }
 th, td { padding: .6rem; border-bottom: 1px solid #81948c; text-align: left; }
 th { background: #dceae2; }
+
+.indicador { background: #dceae2; padding: .6rem 1rem; border-radius: .35rem; }
+.sedes td:last-child { font-variant-numeric: tabular-nums; }

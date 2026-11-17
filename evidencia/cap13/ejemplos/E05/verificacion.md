@@ -5,3 +5,5 @@
 Commit y salida de cinco pruebas enlazados.
 
 [Comandos y salidas](comandos.txt)
+
+[Captura del artefacto local](CAP13_E05_archivo.png).

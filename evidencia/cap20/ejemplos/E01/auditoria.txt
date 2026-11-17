@@ -1,0 +1,5 @@
+docs/RELEVO_COMPANERO.md | 2693 bytes | fuente, documentación o recurso estático; conservar en Git
+docs/tablero.js | 1698 bytes | fuente, documentación o recurso estático; conservar en Git
+docs/manual.md | 1339 bytes | fuente, documentación o recurso estático; conservar en Git
+docs/index.html | 1074 bytes | fuente, documentación o recurso estático; conservar en Git
+docs/productos.html | 755 bytes | fuente, documentación o recurso estático; conservar en Git

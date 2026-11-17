@@ -1,0 +1,27 @@
+$ git switch -c feature/ficha-sedes
+Switched to a new branch 'feature/ficha-sedes'
+$ git var GIT_AUTHOR_IDENT
+Ulises122006 <212186165+Ulises122006@users.noreply.github.com> 1794955441 -0500
+$ git add -- docs/index.html
+$ git diff --cached --check
+$ git diff --cached --stat
+ docs/index.html | 1 +
+ 1 file changed, 1 insertion(+)
+$ git commit -m docs: presentar las sedes del tablero
+[feature/ficha-sedes e86e0d7] docs: presentar las sedes del tablero
+ 1 file changed, 1 insertion(+)
+$ git log -1 --format=Hash: %H
+Hash: e86e0d788ddc5bc20e5e8039a610d86b89764c54
+$ git diff main...feature/ficha-sedes
+diff --git a/docs/index.html b/docs/index.html
+index 2e6e764..2020095 100644
+--- a/docs/index.html
++++ b/docs/index.html
+@@ -11,6 +11,7 @@
+   <main>
+     <nav aria-label="Páginas del tablero"><a href="productos.html">Ventas por producto</a></nav>
+     <h1>Tablero de ventas por sede de Andina Market 360</h1>
++    <p>Lima, Ica y Arequipa · ventas ficticias</p>
+     <p>Fuente de datos ficticios <a href="data/resumen.json">resumen generado a partir de ventas.csv</a>.</p>
+     <p id="estado" role="status">Cargando resumen…</p>
+     <label for="producto">Producto</label>

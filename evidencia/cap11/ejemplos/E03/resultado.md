@@ -25,3 +25,5 @@ Artefactos: proyecto.md de laboratorio.
 [Verificación](verificacion.md)
 
 Commit de la práctica: ee75e2aedcd607ac524281a178fa41e898914552.
+
+[Captura del archivo abierto en Chrome](CAP11_E03_archivo.png). Archivo observado: `comandos.txt`.

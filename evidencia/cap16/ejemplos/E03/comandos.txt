@@ -1,0 +1,8 @@
+$ git remote add upstream https://github.com/XATEDAY/andina-market-360.git
+$ git remote -v
+origin	C:/Users/ULISES/Desktop/Andina Market 360/andina-market-360/. (fetch)
+origin	C:/Users/ULISES/Desktop/Andina Market 360/andina-market-360/. (push)
+upstream	https://github.com/XATEDAY/andina-market-360.git (fetch)
+upstream	https://github.com/XATEDAY/andina-market-360.git (push)
+
+Simulación: origin apunta a la copia local; upstream al repositorio del caso.

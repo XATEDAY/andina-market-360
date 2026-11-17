@@ -1,0 +1,3 @@
+$ git status --short -- dist/prueba.tmp
+$ git check-ignore -v dist/prueba.tmp
+.gitignore:25:dist/	dist/prueba.tmp

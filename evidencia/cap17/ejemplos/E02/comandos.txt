@@ -1,0 +1,18 @@
+$ git log -1 --oneline -- .github/ISSUE_TEMPLATE/bug_report.md
+a55436c feat: verificar tablero y registrar practicas 11 a 13
+---
+name: Error en ventas
+about: Reportar un error reproducible con datos ficticios
+---
+
+## Pasos para reproducir
+
+Incluye comando, versión de Python y un caso mínimo con datos ficticios.
+
+## Resultado esperado y observado
+
+Incluye las cifras exactas y la salida pertinente sin credenciales.
+
+## Comprobación de la corrección
+
+Describe el resultado medible y la prueba que debería verificarlo.

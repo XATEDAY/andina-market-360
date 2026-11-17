@@ -33,3 +33,7 @@ VS Code: File → Open Folder → Source Control
 - [CAP11_R01](retos/R01/resultado.md) · BLOQUEADO. Dos commits de terminal comprobados.
 - [CAP11_R02](retos/R02/resultado.md) · BLOQUEADO. La rama activa fue feature/ficha-sedes.
 - [CAP11_R03](retos/R03/resultado.md) · BLOQUEADO. Git no mostró cambios en proyecto.md tras la restauración. Falta el descarte gráfico.
+
+## Capturas del corte
+
+8 PNG enlazados en las fichas y la matriz. Las capturas de documentos y transcripciones muestran los artefactos locales abiertos en Chrome.

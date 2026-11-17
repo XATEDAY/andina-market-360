@@ -1,0 +1,9 @@
+dist/andina-market-360-dashboard-v1.0.0.zip | 4929 bytes
+SHA-256 69bedf45b8f5a555060e8bc0f9c7f45167a53d7ce1672f79019a07741f06f8af
+Prueba CRC y comparación byte a byte correctas.
+README.md
+docs/index.html
+docs/productos.html
+docs/style.css
+docs/tablero.js
+docs/data/resumen.json

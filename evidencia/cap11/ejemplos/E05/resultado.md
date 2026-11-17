@@ -37,3 +37,5 @@ Artefactos: Tabla de equivalencias.
 [Verificación](verificacion.md)
 
 Commit de la práctica: —.
+
+[Captura del archivo abierto en Chrome](CAP11_E05_archivo.png). Archivo observado: `comandos.txt`.

@@ -5,13 +5,13 @@
 | 11 | GitHub Desktop y Visual Studio Code | 1/5 | 0/3 | 1 | 7 | 0 | 2026-11-17 | [Informe](cap11/INFORME_CAP11.md) | Parcial | — |
 | 12 | Documentación con Markdown | 3/5 | 3/3 | 6 | 2 | 0 | 2026-11-17 | [Informe](cap12/INFORME_CAP12.md) | Parcial | — |
 | 13 | Gestión de tareas con GitHub Issues y Projects | 1/5 | 3/3 | 4 | 0 | 4 | 2026-11-17 | [Informe](cap13/INFORME_CAP13.md) | Parcial | — |
-| 14 | Pull Requests y colaboración | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap14/INFORME_CAP14.md) | Pendiente | — |
-| 15 | Revisión profesional de código | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap15/INFORME_CAP15.md) | Pendiente | — |
-| 16 | Participación en proyectos de código abierto | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap16/INFORME_CAP16.md) | Pendiente | — |
-| 17 | Administración de repositorios | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap17/INFORME_CAP17.md) | Pendiente | — |
-| 18 | Versiones, etiquetas y lanzamientos | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap18/INFORME_CAP18.md) | Pendiente | — |
-| 19 | Publicación de sitios con GitHub Pages | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap19/INFORME_CAP19.md) | Pendiente | — |
-| 20 | Gestión de archivos y paquetes | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap20/INFORME_CAP20.md) | Pendiente | — |
+| 14 | Pull Requests y colaboración | 1/5 | 1/3 | 2 | 0 | 6 | 2026-11-17 | [Informe](cap14/INFORME_CAP14.md) | Parcial | — |
+| 15 | Revisión profesional de código | 4/5 | 3/3 | 7 | 0 | 1 | 2026-11-17 | [Informe](cap15/INFORME_CAP15.md) | Parcial | — |
+| 16 | Participación en proyectos de código abierto | 4/5 | 3/3 | 7 | 0 | 1 | 2026-11-17 | [Informe](cap16/INFORME_CAP16.md) | Parcial | — |
+| 17 | Administración de repositorios | 5/5 | 3/3 | 8 | 0 | 0 | 2026-11-17 | [Informe](cap17/INFORME_CAP17.md) | Completa | — |
+| 18 | Versiones, etiquetas y lanzamientos | 4/5 | 3/3 | 7 | 0 | 1 | 2026-11-17 | [Informe](cap18/INFORME_CAP18.md) | Parcial | — |
+| 19 | Publicación de sitios con GitHub Pages | 4/5 | 3/3 | 7 | 0 | 1 | 2026-11-17 | [Informe](cap19/INFORME_CAP19.md) | Parcial | — |
+| 20 | Gestión de archivos y paquetes | 5/5 | 3/3 | 8 | 0 | 0 | 2026-11-17 | [Informe](cap20/INFORME_CAP20.md) | Completa | — |
 | 21 | Introducción a GitHub Actions | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap21/INFORME_CAP21.md) | Pendiente | — |
 | 22 | Integración continua (CI) | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap22/INFORME_CAP22.md) | Pendiente | — |
 | 23 | Entrega y despliegue continuos (CD) | 0/5 | 0/3 | 0 | 8 | 0 | — | [Informe](cap23/INFORME_CAP23.md) | Pendiente | — |

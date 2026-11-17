@@ -19,3 +19,5 @@ Artefactos: feature/ficha-sedes de laboratorio.
 [Verificación](verificacion.md)
 
 Commit de la práctica: —.
+
+[Captura del archivo abierto en Chrome](CAP11_R02_archivo.png). Archivo observado: `comandos.txt`.

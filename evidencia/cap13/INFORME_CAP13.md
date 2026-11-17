@@ -33,3 +33,7 @@ Criterios de aceptación: entrada → cambio → prueba → resultado
 - [CAP13_R01](retos/R01/resultado.md) · COMPLETADO Y VERIFICADO. Tres criterios medibles.
 - [CAP13_R02](retos/R02/resultado.md) · COMPLETADO Y VERIFICADO. Ocho tarjetas con estado y rol.
 - [CAP13_R03](retos/R03/resultado.md) · COMPLETADO Y VERIFICADO. Plantilla local comprobada.
+
+## Capturas del corte
+
+8 PNG enlazados en las fichas y la matriz. Las capturas de documentos y transcripciones muestran los artefactos locales abiertos en Chrome.

@@ -5,3 +5,5 @@
 Cinco pruebas correctas; la CLI produjo 12 operaciones.
 
 [Comandos y salidas](comandos.txt)
+
+[Captura del artefacto local](CAP12_E03_archivo.png).
