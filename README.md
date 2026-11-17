@@ -133,3 +133,7 @@ los principales riesgos de publicación.
 
 ### Evidencia
 CAP04_R03.png
+
+## Propósito del proyecto
+
+Andina Market 360 permite analizar las ventas ficticias de las sedes de Lima, Ica y Arequipa.
