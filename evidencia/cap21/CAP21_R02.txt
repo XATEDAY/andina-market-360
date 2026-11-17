@@ -1,0 +1,21 @@
+Evidencia a entregar: Análisis técnico documentado en la bitácora del capítulo
+ sobre el alcance del GITHUB_TOKEN frente a errores de código, sintaxis y entorno.
+
+Resultado obtenido: Ampliar permissions (por ejemplo a write-all) solo otorga acceso a la API
+ de GitHub, pero no resuelve fallos internos de ejecución o configuración, tales como:
+
+Errores de sintaxis YAML o ubicación incorrecta: Si el archivo usa tabulaciones
+ en vez de espacios o está fuera de .github/workflows/,
+  GitHub no logra parsear el flujo y ni siquiera inicia el runner.
+
+Fallos lógicos o de sintaxis en el código (AssertionError / SyntaxError): Si una prueba
+ unitaria no cumple la aserción esperada o el código Python tiene un error de compilación,
+  el comando fallará sin importar los permisos del token.
+
+Dependencias faltantes o rutas inexistentes en el runner: Si el proyecto requiere instalar librerías
+ previas (pip install) o el directorio indicado en -s tests no existe en el repositorio,
+  el paso fallará por configuración del entorno.
+
+Cómo lo comprobé / corrección realizada: Contrastando la función de la clave permissions
+ (control de acceso a recursos del repositorio como contents, issues o pull-requests)
+  frente a los errores de salida del runner en la consola de ejecución.

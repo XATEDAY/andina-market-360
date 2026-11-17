@@ -1,0 +1,15 @@
+name: Pruebas Pull Request
+on:
+  pull_request:
+    branches: [ main ]
+permissions:
+  contents: read
+
+jobs:
+  validar-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar código del PR
+        uses: actions/checkout@v4
+      - name: Ejecutar pruebas unitarias
+        run: python -m unittest discover -s tests
