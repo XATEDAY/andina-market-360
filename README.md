@@ -143,3 +143,7 @@ Andina Market 360 permite analizar las ventas ficticias de las sedes de Lima, Ic
 Para generar el resumen de ventas, utilizar el comando:
 
 python src/resumen.py --json docs/data/resumen.json
+
+## Resumen de ventas por sede
+
+El informe mostrará los totales de ventas ficticias de Lima, Ica y Arequipa por separado para comparar los resultados de cada sede.
