@@ -1,0 +1,2 @@
+$ node .andina-tools/browser/verificar-readme.cjs
+Vista Markdown local en Chrome: cuatro secciones de nivel 2 presentes; Manual y CSV navegados con HTTP 200; última transacción V012 visible.

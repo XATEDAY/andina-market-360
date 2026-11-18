@@ -1,7 +1,5 @@
-# Verificación de CAP12_E01
+# Verificación CAP12_E01
 
-2026-11-17
+Vista Markdown local en Chrome: cuatro secciones de nivel 2 presentes; Manual y CSV navegados con HTTP 200; última transacción V012 visible.
 
-Secciones escritas; falta vista previa y validación de un compañero.
-
-[Captura del artefacto local](CAP12_E01_archivo.png).
+[Vista Markdown](CAP12_E01_vista_markdown.png)

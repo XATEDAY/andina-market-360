@@ -16,14 +16,8 @@ Resultado a mostrar: Verifique que un compañero entienda cómo ejecutar el aná
 
 2026-11-17 · **EN PROCESO**
 
-Agregué Objetivo, Requisitos, Datos y Ejecución y explicitée el origen ficticio y la biblioteca estándar. El procedimiento de instalación se ejecutó en R01.
+Verifiqué las cuatro secciones en una vista Markdown local. La comprensión de un compañero sigue sin confirmarse.
 
-Artefactos: README.md.
-
-
+[Vista Markdown](CAP12_E01_vista_markdown.png)
 
 [Verificación](verificacion.md)
-
-Commit de la práctica: —.
-
-[Captura del archivo abierto en Chrome](CAP12_E01_archivo.png). Archivo observado: `README.md`.

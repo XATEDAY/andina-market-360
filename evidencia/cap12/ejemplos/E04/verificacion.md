@@ -1,9 +1,5 @@
-# Verificación de CAP12_E04
+# Verificación CAP12_E04
 
-2026-11-17
+Vista Markdown local en Chrome: cuatro secciones de nivel 2 presentes; Manual y CSV navegados con HTTP 200; última transacción V012 visible.
 
-Destinos válidos; falta abrir ambos desde el visor.
-
-[Comandos y salidas](comandos.txt)
-
-[Captura del artefacto local](CAP12_E04_archivo.png).
+[Manual](CAP12_E04_manual.png) · [CSV](CAP12_E04_csv.png)

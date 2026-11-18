@@ -1,9 +1,3 @@
-# Verificación de CAP11_E02
+# Verificación CAP11_E02
 
-2026-11-17
-
-Commit local comprobado en el historial.
-
-[Comandos y salidas](comandos.txt)
-
-[Captura del artefacto local](CAP11_E02_archivo.png).
+El diff de README.md quedó confirmado gráficamente. History muestra `55fef1b` y coincide con la [salida de Git](comandos_desktop.txt).

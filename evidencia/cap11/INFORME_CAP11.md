@@ -25,8 +25,8 @@ VS Code: File → Open Folder → Source Control
 
 ## Ejecución registrada
 
-- [CAP11_E01](ejemplos/E01/resultado.md) · BLOQUEADO. Git mostró main y la nota modificada.
-- [CAP11_E02](ejemplos/E02/resultado.md) · BLOQUEADO. Commit local comprobado en el historial.
+- [CAP11_E01](ejemplos/E01/resultado.md) · COMPLETADO Y VERIFICADO. Changes de GitHub Desktop coincidió con git status.
+- [CAP11_E02](ejemplos/E02/resultado.md) · COMPLETADO Y VERIFICADO. Commit gráfico `55fef1b` confirmado en History.
 - [CAP11_E03](ejemplos/E03/resultado.md) · BLOQUEADO. Rama y commit comprobados.
 - [CAP11_E04](ejemplos/E04/resultado.md) · COMPLETADO Y VERIFICADO. Diff visual comprobado y página servida por HTTP.
 - [CAP11_E05](ejemplos/E05/resultado.md) · BLOQUEADO. Historial y tabla registrados.
@@ -36,4 +36,4 @@ VS Code: File → Open Folder → Source Control
 
 ## Capturas del corte
 
-8 PNG enlazados en las fichas y la matriz. Las capturas de documentos y transcripciones muestran los artefactos locales abiertos en Chrome.
+11 PNG enlazados en las fichas y la matriz. Las capturas de documentos y transcripciones muestran los artefactos locales abiertos en Chrome.

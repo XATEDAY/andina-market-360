@@ -27,10 +27,10 @@ python -m unittest discover -s tests -v
 
 ## Ejecución registrada
 
-- [CAP12_E01](ejemplos/E01/resultado.md) · EN PROCESO. Secciones escritas; falta vista previa y validación de un compañero.
+- [CAP12_E01](ejemplos/E01/resultado.md) · EN PROCESO. Verifiqué las cuatro secciones en una vista Markdown local. La comprensión de un compañero sigue sin confirmarse.
 - [CAP12_E02](ejemplos/E02/resultado.md) · COMPLETADO Y VERIFICADO. Tres sedes del CSV y cuatro columnas comprobadas.
 - [CAP12_E03](ejemplos/E03/resultado.md) · COMPLETADO Y VERIFICADO. Cinco pruebas correctas; la CLI produjo 12 operaciones.
-- [CAP12_E04](ejemplos/E04/resultado.md) · EN PROCESO. Destinos válidos; falta abrir ambos desde el visor.
+- [CAP12_E04](ejemplos/E04/resultado.md) · COMPLETADO Y VERIFICADO. Abrí los dos enlaces desde el README renderizado localmente y comprobé su contenido real.
 - [CAP12_E05](ejemplos/E05/resultado.md) · COMPLETADO Y VERIFICADO. La guía incluye los cinco controles solicitados.
 - [CAP12_R01](retos/R01/resultado.md) · COMPLETADO Y VERIFICADO. Las órdenes terminaron correctamente.
 - [CAP12_R02](retos/R02/resultado.md) · COMPLETADO Y VERIFICADO. Cuatro filas con cálculo y fuente.
@@ -38,4 +38,4 @@ python -m unittest discover -s tests -v
 
 ## Capturas del corte
 
-8 PNG enlazados en las fichas y la matriz. Las capturas de documentos y transcripciones muestran los artefactos locales abiertos en Chrome.
+11 PNG enlazados en las fichas y la matriz. Las capturas de documentos y transcripciones muestran los artefactos locales abiertos en Chrome.

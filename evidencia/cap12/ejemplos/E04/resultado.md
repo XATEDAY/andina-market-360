@@ -14,16 +14,10 @@ Resultado a mostrar: Confirme que funcionan también cuando el repositorio cambi
 
 ## Resultado
 
-2026-11-17 · **EN PROCESO**
+2026-11-17 · **COMPLETADO Y VERIFICADO**
 
-Vinculé el manual y el CSV con rutas relativas y comprobé sus destinos en el sistema de archivos.
+Abrí los dos enlaces desde el README renderizado localmente y comprobé su contenido real.
 
-Artefactos: README.md y docs/manual.md.
-
-[Comandos y salidas](comandos.txt)
+[Manual](CAP12_E04_manual.png) · [CSV](CAP12_E04_csv.png)
 
 [Verificación](verificacion.md)
-
-Commit de la práctica: —.
-
-[Captura del archivo abierto en Chrome](CAP12_E04_archivo.png). Archivo observado: `comandos.txt`.

@@ -1,13 +1,19 @@
-name: Pruebas
-on: [push, pull_request]
+name: CI de ventas
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
 permissions:
   contents: read
 
 jobs:
-  pruebas-unitarias:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Clonar repositorio
-        uses: actions/checkout@v4
-      - name: Ejecutar pruebas con unittest
-        run: python -m unittest discover -s tests
+  probar:
+    strategy:
+      matrix:
+        python-version: ['3.12', '3.14']
+    uses: ./.github/workflows/pruebas.yml
+    with:
+      python-version: ${{ matrix.python-version }}

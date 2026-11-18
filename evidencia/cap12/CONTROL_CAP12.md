@@ -11,4 +11,4 @@ Mejora siguiente: usar criterios de aceptación cuantificables en Issues.
 
 ## Corte de verificación
 
-6/8 prácticas verificadas o simuladas, 8 PNG. Revisar las limitaciones en el [informe](INFORME_CAP12.md). Conservar la salida íntegra y cotejar los resultados contra el CSV en la siguiente revisión.
+7/8 prácticas verificadas o simuladas, 11 PNG. Revisar las limitaciones en el [informe](INFORME_CAP12.md). Conservar la salida íntegra y cotejar los resultados contra el CSV en la siguiente revisión.

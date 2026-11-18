@@ -4,3 +4,6 @@ OK docs/manual.md
 OK CONTRIBUTING.md
 OK docs/RELEVO_COMPANERO.md
 OK evidencia/INDICE_GENERAL.md
+
+$ node .andina-tools/browser/verificar-readme.cjs
+Vista Markdown local en Chrome: cuatro secciones de nivel 2 presentes; Manual y CSV navegados con HTTP 200; última transacción V012 visible.

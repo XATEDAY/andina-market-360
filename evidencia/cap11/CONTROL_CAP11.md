@@ -11,4 +11,4 @@ Mejora para el capítulo 12: comprobar los enlaces de Markdown contra archivos r
 
 ## Corte de verificación
 
-1/8 prácticas verificadas o simuladas, 8 PNG. Revisar las limitaciones en el [informe](INFORME_CAP11.md). Conservar la salida íntegra y cotejar los resultados contra el CSV en la siguiente revisión.
+3/8 prácticas verificadas o simuladas, 11 PNG. Revisar las limitaciones en el [informe](INFORME_CAP11.md). Conservar la salida íntegra y cotejar los resultados contra el CSV en la siguiente revisión.

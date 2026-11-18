@@ -1,0 +1,4 @@
+Hash: 55fef1b01f76592ccf3a85acccbc0f7a9cdc3f5f
+Author: Ulises122006
+Committer: Ulises122006
+Mensaje: docs: explicar procedencia ficticia

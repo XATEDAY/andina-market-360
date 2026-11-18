@@ -14,16 +14,10 @@ Resultado a mostrar: Verifique que la interfaz muestra los mismos cambios que gi
 
 ## Resultado
 
-2026-11-17 · **BLOQUEADO**
+2026-11-17 · **COMPLETADO Y VERIFICADO**
 
-En una copia local añadí una nota temporal. GitHub Desktop no apareció entre las aplicaciones disponibles. Falta comparar con Changes.
+Abrí la copia de práctica en GitHub Desktop. Changes mostró un solo archivo modificado, proyecto.md, y el diff mostró el comentario temporal CAP11_E01. Comprobé por separado que Git reportó main y M proyecto.md. La nota temporal queda visible en la copia para revisar la evidencia.
 
-Artefactos: proyecto.md de laboratorio.
-
-[Comandos y salidas](comandos.txt)
-
-[Verificación](verificacion.md)
-
-Commit de la práctica: —.
-
-[Captura del archivo abierto en Chrome](CAP11_E01_archivo.png). Archivo observado: `comandos.txt`.
+- [Captura real de GitHub Desktop](CAP11_E01_Desktop_Changes.png)
+- [Salida de Git](comandos_desktop.txt)
+- [Verificación](verificacion.md)

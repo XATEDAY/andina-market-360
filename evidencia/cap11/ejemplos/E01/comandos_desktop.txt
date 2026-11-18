@@ -1,0 +1,17 @@
+$ git branch --show-current
+main
+
+$ git status --short
+M proyecto.md
+
+$ git diff -- proyecto.md
+diff --git a/proyecto.md b/proyecto.md
+index 8e89452..3e91fc5 100644
+--- a/proyecto.md
++++ b/proyecto.md
+@@ -341,3 +341,5 @@ relacionados con la visibilidad del repositorio.
+
+ Los archivos todavía no se han sincronizado
+ con GitHub.
++
++<!-- CAP11_E01: nota temporal para comparar GitHub Desktop y git status -->
