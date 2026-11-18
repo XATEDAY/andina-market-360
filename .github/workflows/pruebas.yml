@@ -22,7 +22,7 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - run: python src/resumen.py --json docs/data/resumen.json
       - run: git diff --exit-code -- docs/data/resumen.json
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: resumen-python-${{ inputs.python-version }}
           path: docs/data/resumen.json
